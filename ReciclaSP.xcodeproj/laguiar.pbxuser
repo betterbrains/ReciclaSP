@@ -1,0 +1,257 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* ReciclaSPAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {883, 658}}";
+			sepNavSelRange = "{270, 0}";
+			sepNavVisRange = "{0, 383}";
+		};
+	};
+	1D3623250D0F684500981E51 /* ReciclaSPAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1027}}";
+			sepNavSelRange = "{439, 0}";
+			sepNavVisRange = "{0, 1711}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* ReciclaSP */ = {
+		activeExec = 0;
+		executables = (
+			DD58799B13154B7600759F45 /* ReciclaSP */,
+		);
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = DD58799B13154B7600759F45 /* ReciclaSP */;
+		activeSDKPreference = iphonesimulator4.2;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* ReciclaSP */;
+		addToTargets = (
+			1D6058900D05DD3D006BFB54 /* ReciclaSP */,
+		);
+		codeSenseManager = DD5879A713154B9500759F45 /* Code sense */;
+		executables = (
+			DD58799B13154B7600759F45 /* ReciclaSP */,
+		);
+		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					889,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 320446607;
+			PBXWorkspaceStateSaveDate = 320446607;
+		};
+		perUserProjectItems = {
+			DD5879F613154F8A00759F45 /* PBXTextBookmark */ = DD5879F613154F8A00759F45 /* PBXTextBookmark */;
+			DD587A2C13155DFC00759F45 /* PBXTextBookmark */ = DD587A2C13155DFC00759F45 /* PBXTextBookmark */;
+			DD8A494F1319A33600F1F99A /* PBXTextBookmark */ = DD8A494F1319A33600F1F99A /* PBXTextBookmark */;
+			DD8A49501319A33600F1F99A /* PBXTextBookmark */ = DD8A49501319A33600F1F99A /* PBXTextBookmark */;
+			DD8A49511319A33600F1F99A /* PBXTextBookmark */ = DD8A49511319A33600F1F99A /* PBXTextBookmark */;
+			DD8A49521319A33600F1F99A /* PBXTextBookmark */ = DD8A49521319A33600F1F99A /* PBXTextBookmark */;
+			DD8A49531319A33600F1F99A /* PBXTextBookmark */ = DD8A49531319A33600F1F99A /* PBXTextBookmark */;
+			DD8A49541319A33600F1F99A /* PBXTextBookmark */ = DD8A49541319A33600F1F99A /* PBXTextBookmark */;
+			DD8A49691319A53F00F1F99A /* PBXTextBookmark */ = DD8A49691319A53F00F1F99A /* PBXTextBookmark */;
+			DDCA2060131796A200DF990B /* PBXBookmark */ = DDCA2060131796A200DF990B /* PBXBookmark */;
+		};
+		sourceControlManager = DD5879A613154B9500759F45 /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	DD58799B13154B7600759F45 /* ReciclaSP */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = ReciclaSP;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+	DD5879A613154B9500759F45 /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	DD5879A713154B9500759F45 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	DD5879F613154F8A00759F45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ReciclaSPAppDelegate.h */;
+		name = "ReciclaSPAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 270;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 0;
+	};
+	DD5879FA1315516100759F45 /* MapViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 676}}";
+			sepNavSelRange = "{516, 0}";
+			sepNavVisRange = "{0, 576}";
+		};
+	};
+	DD5879FB1315516100759F45 /* MapViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 1742}}";
+			sepNavSelRange = "{2058, 0}";
+			sepNavVisRange = "{1478, 1363}";
+		};
+	};
+	DD587A02131553A600759F45 /* Pin.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 676}}";
+			sepNavSelRange = "{192, 0}";
+			sepNavVisRange = "{0, 475}";
+		};
+	};
+	DD587A03131553A600759F45 /* Pin.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 676}}";
+			sepNavSelRange = "{211, 0}";
+			sepNavVisRange = "{0, 218}";
+		};
+	};
+	DD587A2C13155DFC00759F45 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ReciclaSPAppDelegate.m */;
+		name = "ReciclaSPAppDelegate.m: 22";
+		rLen = 0;
+		rLoc = 439;
+		rType = 0;
+		vrLen = 1711;
+		vrLoc = 0;
+	};
+	DD8A494F1319A33600F1F99A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDCA20501317942E00DF990B /* ReciclaSPViewController.h */;
+		name = "ReciclaSPViewController.h: 13";
+		rLen = 0;
+		rLoc = 236;
+		rType = 0;
+		vrLen = 245;
+		vrLoc = 0;
+	};
+	DD8A49501319A33600F1F99A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD587A02131553A600759F45 /* Pin.h */;
+		name = "Pin.h: 11";
+		rLen = 0;
+		rLoc = 192;
+		rType = 0;
+		vrLen = 475;
+		vrLoc = 0;
+	};
+	DD8A49511319A33600F1F99A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD587A03131553A600759F45 /* Pin.m */;
+		name = "Pin.m: 14";
+		rLen = 0;
+		rLoc = 211;
+		rType = 0;
+		vrLen = 218;
+		vrLoc = 0;
+	};
+	DD8A49521319A33600F1F99A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDCA20511317942E00DF990B /* ReciclaSPViewController.m */;
+		name = "ReciclaSPViewController.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 1421;
+		vrLoc = 0;
+	};
+	DD8A49531319A33600F1F99A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD5879FA1315516100759F45 /* MapViewController.h */;
+		name = "MapViewController.h: 22";
+		rLen = 0;
+		rLoc = 516;
+		rType = 0;
+		vrLen = 576;
+		vrLoc = 0;
+	};
+	DD8A49541319A33600F1F99A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD5879FB1315516100759F45 /* MapViewController.m */;
+		name = "MapViewController.m: 109";
+		rLen = 0;
+		rLoc = 2708;
+		rType = 0;
+		vrLen = 919;
+		vrLoc = 2134;
+	};
+	DD8A49691319A53F00F1F99A /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD5879FB1315516100759F45 /* MapViewController.m */;
+		name = "MapViewController.m: 84";
+		rLen = 0;
+		rLoc = 2058;
+		rType = 0;
+		vrLen = 1363;
+		vrLoc = 1478;
+	};
+	DDCA20501317942E00DF990B /* ReciclaSPViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 676}}";
+			sepNavSelRange = "{236, 0}";
+			sepNavVisRange = "{0, 245}";
+		};
+	};
+	DDCA20511317942E00DF990B /* ReciclaSPViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 780}}";
+			sepNavSelRange = "{0, 0}";
+			sepNavVisRange = "{0, 1421}";
+		};
+	};
+	DDCA2060131796A200DF990B /* PBXBookmark */ = {
+		isa = PBXBookmark;
+		fRef = DDCA1E66131766A200DF990B /* Recicla.png */;
+	};
+}
