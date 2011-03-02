@@ -79,7 +79,7 @@
 	
 	[map setRegion:MKCoordinateRegionMake(newLocation.coordinate, span) animated:TRUE];
 	
-	[locManager stopUpdatingHeading];
+	[locManager stopUpdatingLocation];
 	
 	locManager = nil;
 	

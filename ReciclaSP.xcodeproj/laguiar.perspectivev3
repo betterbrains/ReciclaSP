@@ -329,7 +329,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DD8A49691319A53F00F1F99A</string>
+										<string>DD881BA1131DD8C8001EC0B5</string>
 										<key>history</key>
 										<array>
 											<string>DD5879F613154F8A00759F45</string>
@@ -340,7 +340,7 @@
 											<string>DD8A49511319A33600F1F99A</string>
 											<string>DD8A49521319A33600F1F99A</string>
 											<string>DD8A49531319A33600F1F99A</string>
-											<string>DD8A49541319A33600F1F99A</string>
+											<string>DD881BA0131DD8B2001EC0B5</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -354,18 +354,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1128, 708}}</string>
+								<string>{{0, 0}, {1128, 705}}</string>
 								<key>RubberWindowFrame</key>
 								<string>74 124 1375 860 0 0 1680 1028 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>708pt</string>
+							<string>705pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>106pt</string>
+							<string>109pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -379,7 +379,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1128, 79}}</string>
+										<string>{{10, 27}, {1128, 82}}</string>
 									</dict>
 									<key>Module</key>
 									<string>XCDetailModule</string>
@@ -433,7 +433,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1128, 79}}</string>
+										<string>{{10, 27}, {1128, 82}}</string>
 										<key>RubberWindowFrame</key>
 										<string>74 124 1375 860 0 0 1680 1028 </string>
 									</dict>
@@ -463,11 +463,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>DD8A492A1319A0AB00F1F99A</string>
+				<string>DD881B8A131DD7A9001EC0B5</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>DD8A492B1319A0AB00F1F99A</string>
+				<string>DD881B8B131DD7A9001EC0B5</string>
 				<string>DD5879C513154C7D00759F45</string>
-				<string>DD8A492C1319A0AB00F1F99A</string>
+				<string>DD881B8C131DD7A9001EC0B5</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -616,14 +616,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>DD8A495F1319A4E800F1F99A</string>
+				<string>DD881B8D131DD7A9001EC0B5</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>DD8A49601319A4E800F1F99A</string>
-				<string>DD8A49611319A4E800F1F99A</string>
-				<string>DD8A49621319A4E800F1F99A</string>
-				<string>DD8A49631319A4E800F1F99A</string>
-				<string>DD8A49641319A4E800F1F99A</string>
+				<string>DD881B8E131DD7A9001EC0B5</string>
+				<string>DD881B8F131DD7A9001EC0B5</string>
+				<string>DD881B90131DD7A9001EC0B5</string>
+				<string>DD881B91131DD7A9001EC0B5</string>
+				<string>DD881B92131DD7A9001EC0B5</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
 			<string>2</string>
@@ -657,6 +657,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
+		<string>DD881BA2131DD8C8001EC0B5</string>
+		<string>DD881BA3131DD8C8001EC0B5</string>
 		<string>/Users/laguiar/dev/BetterBrains/iOS/ReciclaSP/ReciclaSP.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
