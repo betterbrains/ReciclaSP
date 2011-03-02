@@ -25,7 +25,7 @@
 	
 	[locManager startUpdatingLocation];
 	
-//	pin = [[Pin alloc] init];
+	pin = [[Pin alloc] init];
 		
 }
 
@@ -36,11 +36,27 @@
 		return nil;
 	}
 	
-	MKAnnotationView *pinView = [[MKAnnotationView alloc] initWithAnnotation:(Pin*)annotation reuseIdentifier:nil];
+	// try to dequeue an existing pin view first
+	static NSString* PinAnnotationID = @"pinAnnotationID";
+	//MKPinAnnotationView* pinView = (MKPinAnnotationView *)
+	[mapView dequeueReusableAnnotationViewWithIdentifier:PinAnnotationID];
+
+	// if an existing pin view was not available, create one
+	MKPinAnnotationView* pinView = [[[MKPinAnnotationView alloc]
+									 initWithAnnotation:(Pin*)annotation reuseIdentifier:PinAnnotationID] autorelease];
 	
+	if (!pinView) {
+		return nil;
+	}
+
+	pinView.pinColor = MKPinAnnotationColorRed;
+	pinView.animatesDrop = YES;
+	pinView.canShowCallout = YES;
+	
+	
+	//MKAnnotationView *pinView = [[MKAnnotationView alloc] initWithAnnotation:(Pin*)annotation reuseIdentifier:nil];
 	//pinView.image = [UIImage imageNamed:@"rec.png"];
-	
-	pinView.canShowCallout = YES; // ballon
+	//pinView.canShowCallout = YES; // ballon
 	
 	return pinView;
 	
@@ -53,9 +69,9 @@
 //	
 //	estado.text = (placemark.administrativeArea) ? placemark.administrativeArea:@"nao sei";
 	
-//	pin.title = placemark.thoroughfare;
-//	pin.subtitle = [NSString stringWithFormat:@"%@, %@", placemark.locality, placemark.country];
-//	pin.coordinate = placemark.coordinate;
+	pin.title = placemark.thoroughfare;
+	pin.subtitle = [NSString stringWithFormat:@"%@, %@", placemark.locality, placemark.country];
+	pin.coordinate = placemark.coordinate;
 }
 
 

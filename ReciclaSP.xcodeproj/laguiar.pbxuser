@@ -71,6 +71,12 @@
 			DD881B9D131DD836001EC0B5 /* PBXTextBookmark */ = DD881B9D131DD836001EC0B5 /* PBXTextBookmark */;
 			DD881BA0131DD8B2001EC0B5 /* PBXTextBookmark */ = DD881BA0131DD8B2001EC0B5 /* PBXTextBookmark */;
 			DD881BA1131DD8C8001EC0B5 /* PBXTextBookmark */ = DD881BA1131DD8C8001EC0B5 /* PBXTextBookmark */;
+			DD881BFC131DDDA6001EC0B5 /* PBXTextBookmark */ = DD881BFC131DDDA6001EC0B5 /* PBXTextBookmark */;
+			DD881C05131DDF93001EC0B5 /* PBXTextBookmark */ = DD881C05131DDF93001EC0B5 /* PBXTextBookmark */;
+			DD881C13131DE1C6001EC0B5 /* PBXTextBookmark */ = DD881C13131DE1C6001EC0B5 /* PBXTextBookmark */;
+			DD881C16131DE1D7001EC0B5 /* PBXTextBookmark */ = DD881C16131DE1D7001EC0B5 /* PBXTextBookmark */;
+			DD881C1B131DE2DB001EC0B5 /* PBXTextBookmark */ = DD881C1B131DE2DB001EC0B5 /* PBXTextBookmark */;
+			DD881C1C131DE314001EC0B5 /* PBXTextBookmark */ = DD881C1C131DE314001EC0B5 /* PBXTextBookmark */;
 			DD8A494F1319A33600F1F99A = DD8A494F1319A33600F1F99A /* PBXTextBookmark */;
 			DD8A49501319A33600F1F99A = DD8A49501319A33600F1F99A /* PBXTextBookmark */;
 			DD8A49511319A33600F1F99A = DD8A49511319A33600F1F99A /* PBXTextBookmark */;
@@ -147,9 +153,9 @@
 	};
 	DD5879FB1315516100759F45 /* MapViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1067, 1937}}";
-			sepNavSelRange = "{359, 0}";
-			sepNavVisRange = "{41, 1093}";
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 2054}}";
+			sepNavSelRange = "{1223, 0}";
+			sepNavVisRange = "{390, 1511}";
 		};
 	};
 	DD587A02131553A600759F45 /* Pin.h */ = {
@@ -181,7 +187,7 @@
 		fRef = DD5879FB1315516100759F45 /* MapViewController.m */;
 		name = "MapViewController.m: 82";
 		rLen = 0;
-		rLoc = 2053;
+		rLoc = 2637;
 		rType = 0;
 		vrLen = 1293;
 		vrLoc = 1478;
@@ -191,7 +197,7 @@
 		fRef = DD5879FB1315516100759F45 /* MapViewController.m */;
 		name = "MapViewController.m: 77";
 		rLen = 0;
-		rLoc = 1838;
+		rLoc = 2422;
 		rType = 0;
 		vrLen = 1285;
 		vrLoc = 1478;
@@ -201,7 +207,7 @@
 		fRef = DD5879FB1315516100759F45 /* MapViewController.m */;
 		name = "MapViewController.m: 77";
 		rLen = 0;
-		rLoc = 1838;
+		rLoc = 2422;
 		rType = 0;
 		vrLen = 1285;
 		vrLoc = 1478;
@@ -211,7 +217,7 @@
 		fRef = DD5879FB1315516100759F45 /* MapViewController.m */;
 		name = "MapViewController.m: 77";
 		rLen = 0;
-		rLoc = 1838;
+		rLoc = 2422;
 		rType = 0;
 		vrLen = 1285;
 		vrLoc = 1478;
@@ -221,7 +227,7 @@
 		fRef = DD5879FB1315516100759F45 /* MapViewController.m */;
 		name = "MapViewController.m: 77";
 		rLen = 0;
-		rLoc = 1838;
+		rLoc = 2422;
 		rType = 0;
 		vrLen = 570;
 		vrLoc = 1608;
@@ -271,10 +277,70 @@
 		fRef = DD5879FB1315516100759F45 /* MapViewController.m */;
 		name = "MapViewController.m: 76";
 		rLen = 0;
-		rLoc = 1838;
+		rLoc = 2422;
 		rType = 0;
 		vrLen = 1451;
 		vrLoc = 1039;
+	};
+	DD881BFC131DDDA6001EC0B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD5879FB1315516100759F45 /* MapViewController.m */;
+		name = "MapViewController.m: 44";
+		rLen = 0;
+		rLoc = 1082;
+		rType = 0;
+		vrLen = 1591;
+		vrLoc = 311;
+	};
+	DD881C05131DDF93001EC0B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD5879FB1315516100759F45 /* MapViewController.m */;
+		name = "MapViewController.m: 66";
+		rLen = 0;
+		rLoc = 1437;
+		rType = 0;
+		vrLen = 1418;
+		vrLoc = 390;
+	};
+	DD881C13131DE1C6001EC0B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD5879FB1315516100759F45 /* MapViewController.m */;
+		name = "MapViewController.m: 48";
+		rLen = 0;
+		rLoc = 1098;
+		rType = 0;
+		vrLen = 1428;
+		vrLoc = 390;
+	};
+	DD881C16131DE1D7001EC0B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD5879FB1315516100759F45 /* MapViewController.m */;
+		name = "MapViewController.m: 49";
+		rLen = 0;
+		rLoc = 1098;
+		rType = 0;
+		vrLen = 1430;
+		vrLoc = 390;
+	};
+	DD881C1B131DE2DB001EC0B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD5879FB1315516100759F45 /* MapViewController.m */;
+		name = "MapViewController.m: 55";
+		rLen = 0;
+		rLoc = 1221;
+		rType = 0;
+		vrLen = 1471;
+		vrLoc = 390;
+	};
+	DD881C1C131DE314001EC0B5 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD5879FB1315516100759F45 /* MapViewController.m */;
+		name = "MapViewController.m: 56";
+		rLen = 0;
+		rLoc = 1223;
+		rType = 0;
+		vrLen = 1511;
+		vrLoc = 390;
 	};
 	DD8A494F1319A33600F1F99A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -331,7 +397,7 @@
 		fRef = DD5879FB1315516100759F45 /* MapViewController.m */;
 		name = "MapViewController.m: 109";
 		rLen = 0;
-		rLoc = 2709;
+		rLoc = 3293;
 		rType = 0;
 		vrLen = 919;
 		vrLoc = 2134;
@@ -341,7 +407,7 @@
 		fRef = DD5879FB1315516100759F45 /* MapViewController.m */;
 		name = "MapViewController.m: 84";
 		rLen = 0;
-		rLoc = 2059;
+		rLoc = 2643;
 		rType = 0;
 		vrLen = 1363;
 		vrLoc = 1478;
