@@ -101,47 +101,68 @@
 	
     [self addAllAnnotations];
     
-
 	[map setRegion:MKCoordinateRegionMake(coordinate, span) animated:YES];
     
 }
 
 - (void)addAllAnnotations {
-	Pin *pin = [[Pin alloc] init];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"Places" ofType:@"plist"];
+    NSArray *places = [[NSArray alloc] initWithContentsOfFile:path];
+    mapAnnotations = [[NSMutableArray alloc] init];
     
-	// default pin
-	pin.coordinate = CLLocationCoordinate2DMake(-23.550533, -46.633422);
-	pin.title = @"Pça da Sé";
-	
-	mapAnnotations = [[NSMutableArray alloc] init];
-	
-	// point1
-	Pin *pin1 = [[Pin alloc] init];
-	pin1.coordinate = CLLocationCoordinate2DMake(-23.675361, -46.678376);
-	pin1.title = @"Interlagos";
-	
-	// point2
-	Pin *pin2 = [[Pin alloc] init];
-	pin2.coordinate = CLLocationCoordinate2DMake(-23.553467, -46.709836);
-	pin2.title = @"Pça Panamericana";
-    
-	// point3
-	Pin *pin3 = [[Pin alloc] init];
-	pin3.coordinate = CLLocationCoordinate2DMake(-23.581432, -46.630097);
-	pin3.title = @"Vila Mariana";
-    
-	[mapAnnotations insertObject:pin atIndex:[mapAnnotations count]];
-	[mapAnnotations insertObject:pin1 atIndex:[mapAnnotations count]];
-	[mapAnnotations insertObject:pin2 atIndex:[mapAnnotations count]];
-	[mapAnnotations insertObject:pin3 atIndex:[mapAnnotations count]];
-	
-	// plota os pins no mapa
-	[map addAnnotations:mapAnnotations];
+    NSLog(@"-> %@",[places count]);
 
-    [pin release];
-    [pin1 release];
-    [pin2 release];
-    [pin3 release];
+    for (NSDictionary *place in places) {
+        Pin *pin = [[Pin alloc] init];
+
+        double latitude = [[place valueForKey:@"lat"] doubleValue];
+        double longitude = [[place objectForKey:@"lng"] doubleValue];
+        
+        pin.coordinate = CLLocationCoordinate2DMake(latitude, longitude);
+        
+        [mapAnnotations addObject:pin];
+        
+    }
+    
+    [map addAnnotations:mapAnnotations];
+    
+    [mapAnnotations release];
+    
+//	Pin *pin = [[Pin alloc] init];
+//    
+//	// default pin
+//	pin.coordinate = CLLocationCoordinate2DMake(-23.550533, -46.633422);
+//	pin.title = @"Pça da Sé";
+//	
+//	mapAnnotations = [[NSMutableArray alloc] init];
+//	
+//	// point1
+//	Pin *pin1 = [[Pin alloc] init];
+//	pin1.coordinate = CLLocationCoordinate2DMake(-23.675361, -46.678376);
+//	pin1.title = @"Interlagos";
+//	
+//	// point2
+//	Pin *pin2 = [[Pin alloc] init];
+//	pin2.coordinate = CLLocationCoordinate2DMake(-23.553467, -46.709836);
+//	pin2.title = @"Pça Panamericana";
+//    
+//	// point3
+//	Pin *pin3 = [[Pin alloc] init];
+//	pin3.coordinate = CLLocationCoordinate2DMake(-23.581432, -46.630097);
+//	pin3.title = @"Vila Mariana";
+//    
+//	[mapAnnotations insertObject:pin atIndex:[mapAnnotations count]];
+//	[mapAnnotations insertObject:pin1 atIndex:[mapAnnotations count]];
+//	[mapAnnotations insertObject:pin2 atIndex:[mapAnnotations count]];
+//	[mapAnnotations insertObject:pin3 atIndex:[mapAnnotations count]];
+//	
+//	// plota os pins no mapa
+//	[map addAnnotations:mapAnnotations];
+//
+//    [pin release];
+//    [pin1 release];
+//    [pin2 release];
+//    [pin3 release];
 
 }
 
