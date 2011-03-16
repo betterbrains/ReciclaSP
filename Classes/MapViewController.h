@@ -18,11 +18,12 @@
 	IBOutlet UISegmentedControl *seg;
 	
 	CLLocationManager *locManager;
-	Pin *pin;
 	NSMutableArray *mapAnnotations;
 }
 
 -(IBAction)changeMapType;
 -(IBAction)gotoMyPlace;
+
+-(void)addAllAnnotations;
 
 @end

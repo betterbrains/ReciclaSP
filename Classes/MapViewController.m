@@ -50,25 +50,14 @@
 	pinView.animatesDrop = YES;
 	pinView.canShowCallout = YES;
 	
-	
-	//MKAnnotationView *pinView = [[MKAnnotationView alloc] initWithAnnotation:(Pin*)annotation reuseIdentifier:nil];
-	//pinView.image = [UIImage imageNamed:@"rec.png"];
-	//pinView.canShowCallout = YES; // ballon
-	
 	return pinView;
 	
 }
 
 
-- (void)reverseGeocoder:(MKReverseGeocoder *)geocoder didFindPlacemark:(MKPlacemark *)placemark
-{
-//	cidade.text = (placemark.locality) ? placemark.locality:@"nao sei";
-//	
-//	estado.text = (placemark.administrativeArea) ? placemark.administrativeArea:@"nao sei";
-	
-	pin.title = placemark.thoroughfare;
-	pin.subtitle = [NSString stringWithFormat:@"%@, %@", placemark.locality, placemark.country];
-	pin.coordinate = placemark.coordinate;
+- (void)reverseGeocoder:(MKReverseGeocoder *)geocoder didFindPlacemark:(MKPlacemark *)placemark {
+    
+    
 }
 
 
@@ -96,15 +85,6 @@
 	
 	locManager = nil;
 	
-//	pin.coordinate = newLocation.coordinate;
-	
-//	[map addAnnotation:pin];
-	
-//	MKReverseGeocoder *geo = [[MKReverseGeocoder alloc] initWithCoordinate:map.centerCoordinate];
-	
-//	geo.delegate = self;
-	
-//	[geo start]; // call didFindPlacemark
 }
 
 
@@ -119,10 +99,18 @@
 	CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake(-23.550533, -46.633422); // praca da se
 	MKCoordinateSpan span = MKCoordinateSpanMake(0.220, 0.220);
 	
-	pin = [[Pin	alloc] init];
+    [self addAllAnnotations];
+    
 
+	[map setRegion:MKCoordinateRegionMake(coordinate, span) animated:YES];
+    
+}
+
+- (void)addAllAnnotations {
+	Pin *pin = [[Pin alloc] init];
+    
 	// default pin
-	pin.coordinate = coordinate;
+	pin.coordinate = CLLocationCoordinate2DMake(-23.550533, -46.633422);
 	pin.title = @"Pça da Sé";
 	
 	mapAnnotations = [[NSMutableArray alloc] init];
@@ -136,12 +124,12 @@
 	Pin *pin2 = [[Pin alloc] init];
 	pin2.coordinate = CLLocationCoordinate2DMake(-23.553467, -46.709836);
 	pin2.title = @"Pça Panamericana";
-
+    
 	// point3
 	Pin *pin3 = [[Pin alloc] init];
 	pin3.coordinate = CLLocationCoordinate2DMake(-23.581432, -46.630097);
 	pin3.title = @"Vila Mariana";
-
+    
 	[mapAnnotations insertObject:pin atIndex:[mapAnnotations count]];
 	[mapAnnotations insertObject:pin1 atIndex:[mapAnnotations count]];
 	[mapAnnotations insertObject:pin2 atIndex:[mapAnnotations count]];
@@ -150,10 +138,13 @@
 	// plota os pins no mapa
 	[map addAnnotations:mapAnnotations];
 
-	[map setRegion:MKCoordinateRegionMake(coordinate, span) animated:YES];
-	
-	
+    [pin release];
+    [pin1 release];
+    [pin2 release];
+    [pin3 release];
+
 }
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
@@ -163,13 +154,11 @@
     [super viewDidUnload];
 	
     map = nil;
-	pin = nil;
 }
 
 
 - (void)dealloc {
 	[map release];
-	[pin release];
 	
     [super dealloc];
 }
