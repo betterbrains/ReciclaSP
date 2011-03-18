@@ -18,7 +18,6 @@
 	IBOutlet UISegmentedControl *seg;
 	
 	CLLocationManager *locManager;
-	NSMutableArray *mapAnnotations;
 }
 
 -(IBAction)changeMapType;
