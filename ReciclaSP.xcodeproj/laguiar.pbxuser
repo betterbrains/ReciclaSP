@@ -23,7 +23,7 @@
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
 		activeBuildConfigurationName = Debug;
 		activeExecutable = DD58799B13154B7600759F45 /* ReciclaSP */;
-		activeSDKPreference = iphoneos4.2;
+		activeSDKPreference = iphonesimulator4.2;
 		activeTarget = 1D6058900D05DD3D006BFB54 /* ReciclaSP */;
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* ReciclaSP */,
@@ -55,20 +55,21 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 320722792;
-			PBXWorkspaceStateSaveDate = 320722792;
+			PBXPerProjectTemplateStateSaveDate = 322163951;
+			PBXWorkspaceStateSaveDate = 322163951;
 		};
 		perUserProjectItems = {
 			DD5879F613154F8A00759F45 /* PBXTextBookmark */ = DD5879F613154F8A00759F45 /* PBXTextBookmark */;
 			DD587A2C13155DFC00759F45 /* PBXTextBookmark */ = DD587A2C13155DFC00759F45 /* PBXTextBookmark */;
 			DD881C38131DFD8C001EC0B5 /* PBXTextBookmark */ = DD881C38131DFD8C001EC0B5 /* PBXTextBookmark */;
-			DD881C39131DFD8C001EC0B5 /* XCBuildMessageTextBookmark */ = DD881C39131DFD8C001EC0B5 /* XCBuildMessageTextBookmark */;
-			DD881C6C131E043E001EC0B5 /* PBXTextBookmark */ = DD881C6C131E043E001EC0B5 /* PBXTextBookmark */;
 			DD8A494F1319A33600F1F99A /* PBXTextBookmark */ = DD8A494F1319A33600F1F99A /* PBXTextBookmark */;
 			DD8A49501319A33600F1F99A /* PBXTextBookmark */ = DD8A49501319A33600F1F99A /* PBXTextBookmark */;
 			DD8A49511319A33600F1F99A /* PBXTextBookmark */ = DD8A49511319A33600F1F99A /* PBXTextBookmark */;
 			DD8A49521319A33600F1F99A /* PBXTextBookmark */ = DD8A49521319A33600F1F99A /* PBXTextBookmark */;
 			DDCA2060131796A200DF990B /* PBXBookmark */ = DDCA2060131796A200DF990B /* PBXBookmark */;
+			DDE34758133401E00070A2CC /* PlistBookmark */ = DDE34758133401E00070A2CC /* PlistBookmark */;
+			DDE34759133401E00070A2CC /* PBXTextBookmark */ = DDE34759133401E00070A2CC /* PBXTextBookmark */;
+			DDE3475B133401E00070A2CC /* PBXTextBookmark */ = DDE3475B133401E00070A2CC /* PBXTextBookmark */;
 		};
 		sourceControlManager = DD5879A613154B9500759F45 /* Source Control */;
 		userBuildSettings = {
@@ -137,9 +138,9 @@
 	};
 	DD5879FB1315516100759F45 /* MapViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1314, 2600}}";
-			sepNavSelRange = "{313, 0}";
-			sepNavVisRange = "{880, 528}";
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 2080}}";
+			sepNavSelRange = "{3339, 0}";
+			sepNavVisRange = "{2424, 1188}";
 		};
 	};
 	DD587A02131553A600759F45 /* Pin.h */ = {
@@ -175,25 +176,6 @@
 		rType = 0;
 		vrLen = 576;
 		vrLoc = 0;
-	};
-	DD881C39131DFD8C001EC0B5 /* XCBuildMessageTextBookmark */ = {
-		isa = PBXTextBookmark;
-		comments = "Variable-sized object may not be initialized";
-		fRef = DD5879FB1315516100759F45 /* MapViewController.m */;
-		fallbackIsa = XCBuildMessageTextBookmark;
-		rLen = 1;
-		rLoc = 130;
-		rType = 1;
-	};
-	DD881C6C131E043E001EC0B5 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DD5879FB1315516100759F45 /* MapViewController.m */;
-		name = "MapViewController.m: 126";
-		rLen = 0;
-		rLoc = 3299;
-		rType = 0;
-		vrLen = 1382;
-		vrLoc = 2967;
 	};
 	DD8A494F1319A33600F1F99A /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
@@ -252,5 +234,36 @@
 	DDCA2060131796A200DF990B /* PBXBookmark */ = {
 		isa = PBXBookmark;
 		fRef = DDCA1E66131766A200DF990B /* Recicla.png */;
+	};
+	DDE34758133401E00070A2CC /* PlistBookmark */ = {
+		isa = PlistBookmark;
+		fRef = DD8D2FE113306AFA00A6DBCE /* Places.plist */;
+		fallbackIsa = PBXBookmark;
+		isK = 0;
+		kPath = (
+		);
+		name = /Users/laguiar/Documents/Betterbrains/ReciclaSP/Places.plist;
+		rLen = 0;
+		rLoc = 9223372036854775807;
+	};
+	DDE34759133401E00070A2CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD5879FB1315516100759F45 /* MapViewController.m */;
+		name = "MapViewController.m: 127";
+		rLen = 0;
+		rLoc = 3339;
+		rType = 0;
+		vrLen = 1188;
+		vrLoc = 2424;
+	};
+	DDE3475B133401E00070A2CC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD5879FB1315516100759F45 /* MapViewController.m */;
+		name = "MapViewController.m: 127";
+		rLen = 0;
+		rLoc = 3339;
+		rType = 0;
+		vrLen = 1188;
+		vrLoc = 2424;
 	};
 }

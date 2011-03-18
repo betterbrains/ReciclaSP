@@ -46,7 +46,7 @@
 		return nil;
 	}
 
-	pinView.pinColor = MKPinAnnotationColorRed;
+	pinView.pinColor = MKPinAnnotationColorGreen;
 	pinView.animatesDrop = YES;
 	pinView.canShowCallout = YES;
 	
@@ -123,6 +123,8 @@
             double longitude = [[place objectForKey:@"lng"] doubleValue];
             
             pin.coordinate = CLLocationCoordinate2DMake(latitude, longitude);
+			pin.title = [place objectForKey:@"name"];
+			pin.subtitle = [place objectForKey:@"location"];
             
             [map addAnnotation:pin];
             
