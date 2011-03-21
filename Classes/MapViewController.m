@@ -106,31 +106,25 @@
 }
 
 - (void)addAllAnnotations {
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Places" ofType:@"plist"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"Pev" ofType:@"plist"];
     NSArray *places = [[NSArray alloc] initWithContentsOfFile:path];
-    NSString *placeType = [NSString alloc];
   
     // load and add the pins
     for (NSDictionary *place in places) {
-        placeType = [place objectForKey:@"type"];
+        
+        Pin *pin = [[Pin alloc] init];
 
-        // plot only the PEV pins
-        if ([placeType isEqualToString:@"pev"]) {
-            
-            Pin *pin = [[Pin alloc] init];
+        double latitude = [[place objectForKey:@"lat"] doubleValue];
+        double longitude = [[place objectForKey:@"lng"] doubleValue];
+        
+        pin.coordinate = CLLocationCoordinate2DMake(latitude, longitude);
+        pin.title = [place objectForKey:@"name"];
+        pin.subtitle = [place objectForKey:@"location"];
+        
+        [map addAnnotation:pin];
+        
+        [pin release];
 
-            double latitude = [[place objectForKey:@"lat"] doubleValue];
-            double longitude = [[place objectForKey:@"lng"] doubleValue];
-            
-            pin.coordinate = CLLocationCoordinate2DMake(latitude, longitude);
-			pin.title = [place objectForKey:@"name"];
-			pin.subtitle = [place objectForKey:@"location"];
-            
-            [map addAnnotation:pin];
-            
-            [pin release];
-
-        }
     }
     
     [places release];

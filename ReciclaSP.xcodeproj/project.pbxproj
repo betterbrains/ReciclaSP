@@ -18,7 +18,7 @@
 		DD5879FE1315516100759F45 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD5879FC1315516100759F45 /* MapViewController.xib */; };
 		DD587A04131553A600759F45 /* Pin.m in Sources */ = {isa = PBXBuildFile; fileRef = DD587A03131553A600759F45 /* Pin.m */; };
 		DD587A19131556A400759F45 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD587A18131556A400759F45 /* CoreLocation.framework */; };
-		DD61D96913304EE800061012 /* Places.xml in Resources */ = {isa = PBXBuildFile; fileRef = DD61D96813304EE800061012 /* Places.xml */; };
+		DD7750A613372B58004BDBBF /* Pev.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD7750A513372B58004BDBBF /* Pev.plist */; };
 		DD8D2FE213306AFA00A6DBCE /* Places.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD8D2FE113306AFA00A6DBCE /* Places.plist */; };
 		DDCA1E4013175A8700DF990B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCA1E3713175A8700DF990B /* Icon-72.png */; };
 		DDCA1E4113175A8700DF990B /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCA1E3813175A8700DF990B /* Icon-Small-50.png */; };
@@ -54,7 +54,7 @@
 		DD587A02131553A600759F45 /* Pin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pin.h; path = Classes/Pin.h; sourceTree = "<group>"; };
 		DD587A03131553A600759F45 /* Pin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pin.m; path = Classes/Pin.m; sourceTree = "<group>"; };
 		DD587A18131556A400759F45 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
-		DD61D96813304EE800061012 /* Places.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Places.xml; sourceTree = "<group>"; };
+		DD7750A513372B58004BDBBF /* Pev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Pev.plist; sourceTree = "<group>"; };
 		DD8D2FE113306AFA00A6DBCE /* Places.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Places.plist; sourceTree = "<group>"; };
 		DDCA1E3713175A8700DF990B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		DDCA1E3813175A8700DF990B /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
@@ -134,7 +134,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DD61D96813304EE800061012 /* Places.xml */,
+				DD7750A513372B58004BDBBF /* Pev.plist */,
 				DDCA20481317938C00DF990B /* images */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* ReciclaSP-Info.plist */,
@@ -253,8 +253,8 @@
 				DDCA1E5B131763B500DF990B /* 103-map.png in Resources */,
 				DDCA1E67131766A200DF990B /* Recicla.png in Resources */,
 				DDCA20541317942E00DF990B /* ReciclaSPViewController.xib in Resources */,
-				DD61D96913304EE800061012 /* Places.xml in Resources */,
 				DD8D2FE213306AFA00A6DBCE /* Places.plist in Resources */,
+				DD7750A613372B58004BDBBF /* Pev.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
