@@ -34,6 +34,7 @@
 		DDCA1E67131766A200DF990B /* Recicla.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCA1E66131766A200DF990B /* Recicla.png */; };
 		DDCA20531317942E00DF990B /* ReciclaSPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCA20511317942E00DF990B /* ReciclaSPViewController.m */; };
 		DDCA20541317942E00DF990B /* ReciclaSPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDCA20521317942E00DF990B /* ReciclaSPViewController.xib */; };
+		DDD60ED6133855D9009975E0 /* green_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = DDD60ED5133855D9009975E0 /* green_pin.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,6 +72,7 @@
 		DDCA20501317942E00DF990B /* ReciclaSPViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReciclaSPViewController.h; sourceTree = "<group>"; };
 		DDCA20511317942E00DF990B /* ReciclaSPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReciclaSPViewController.m; sourceTree = "<group>"; };
 		DDCA20521317942E00DF990B /* ReciclaSPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReciclaSPViewController.xib; sourceTree = "<group>"; };
+		DDD60ED5133855D9009975E0 /* green_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_pin.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +160,7 @@
 		DDCA20481317938C00DF990B /* images */ = {
 			isa = PBXGroup;
 			children = (
+				DDD60ED5133855D9009975E0 /* green_pin.png */,
 				DDCA1E66131766A200DF990B /* Recicla.png */,
 				DDCA1E5A131763B500DF990B /* 103-map.png */,
 				DDCA1E521317627400DF990B /* 193-location-arrow.png */,
@@ -255,6 +258,7 @@
 				DDCA20541317942E00DF990B /* ReciclaSPViewController.xib in Resources */,
 				DD8D2FE213306AFA00A6DBCE /* Places.plist in Resources */,
 				DD7750A613372B58004BDBBF /* Pev.plist in Resources */,
+				DDD60ED6133855D9009975E0 /* green_pin.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

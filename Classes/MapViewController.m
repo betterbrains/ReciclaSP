@@ -110,16 +110,16 @@
     NSArray *places = [[NSArray alloc] initWithContentsOfFile:path];
   
     // load and add the pins
-    for (NSDictionary *place in places) {
+    for (NSDictionary *pev in places) {
         
         Pin *pin = [[Pin alloc] init];
 
-        double latitude = [[place objectForKey:@"lat"] doubleValue];
-        double longitude = [[place objectForKey:@"lng"] doubleValue];
+        double latitude = [[pev objectForKey:@"lat"] doubleValue];
+        double longitude = [[pev objectForKey:@"lng"] doubleValue];
         
         pin.coordinate = CLLocationCoordinate2DMake(latitude, longitude);
-        pin.title = [place objectForKey:@"name"];
-        pin.subtitle = [place objectForKey:@"location"];
+        pin.title = [pev objectForKey:@"name"];
+        pin.subtitle = [pev objectForKey:@"location"];
         
         [map addAnnotation:pin];
         
