@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* ReciclaSPAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {883, 658}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 658}}";
 			sepNavSelRange = "{270, 0}";
 			sepNavVisRange = "{0, 383}";
 		};
 	};
 	1D3623250D0F684500981E51 /* ReciclaSPAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1965, 1027}}";
-			sepNavSelRange = "{439, 0}";
-			sepNavVisRange = "{0, 1711}";
+			sepNavIntBoundsRect = "{{0, 0}, {1965, 1040}}";
+			sepNavSelRange = "{124, 0}";
+			sepNavVisRange = "{0, 1713}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* ReciclaSP */ = {
@@ -55,19 +55,21 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 322509839;
-			PBXWorkspaceStateSaveDate = 322509839;
+			PBXPerProjectTemplateStateSaveDate = 322517627;
+			PBXWorkspaceStateSaveDate = 322517627;
 		};
 		perUserProjectItems = {
-			DD49037913391CEF00B3F876 /* PBXTextBookmark */ = DD49037913391CEF00B3F876 /* PBXTextBookmark */;
-			DD49038213391D2900B3F876 /* PBXTextBookmark */ = DD49038213391D2900B3F876 /* PBXTextBookmark */;
-			DD5879F613154F8A00759F45 /* PBXTextBookmark */ = DD5879F613154F8A00759F45 /* PBXTextBookmark */;
-			DD587A2C13155DFC00759F45 /* PBXTextBookmark */ = DD587A2C13155DFC00759F45 /* PBXTextBookmark */;
+			DD3ED49B133945A600667EFC /* PBXTextBookmark */ = DD3ED49B133945A600667EFC /* PBXTextBookmark */;
+			DD3ED49C133945A600667EFC /* PBXTextBookmark */ = DD3ED49C133945A600667EFC /* PBXTextBookmark */;
+			DD3ED49D133945A600667EFC /* PBXTextBookmark */ = DD3ED49D133945A600667EFC /* PBXTextBookmark */;
+			DD3ED49E133945A600667EFC /* PBXTextBookmark */ = DD3ED49E133945A600667EFC /* PBXTextBookmark */;
+			DD3ED49F133945A600667EFC /* PBXTextBookmark */ = DD3ED49F133945A600667EFC /* PBXTextBookmark */;
+			DD4B9079133931EE007B4440 /* PBXTextBookmark */ = DD4B9079133931EE007B4440 /* PBXTextBookmark */;
+			DD4B907B133931EE007B4440 /* PBXTextBookmark */ = DD4B907B133931EE007B4440 /* PBXTextBookmark */;
+			DD4B909F1339352C007B4440 /* PBXTextBookmark */ = DD4B909F1339352C007B4440 /* PBXTextBookmark */;
 			DD881C38131DFD8C001EC0B5 /* PBXTextBookmark */ = DD881C38131DFD8C001EC0B5 /* PBXTextBookmark */;
-			DD8A494F1319A33600F1F99A /* PBXTextBookmark */ = DD8A494F1319A33600F1F99A /* PBXTextBookmark */;
 			DD8A49501319A33600F1F99A /* PBXTextBookmark */ = DD8A49501319A33600F1F99A /* PBXTextBookmark */;
 			DD8A49511319A33600F1F99A /* PBXTextBookmark */ = DD8A49511319A33600F1F99A /* PBXTextBookmark */;
-			DD8A49521319A33600F1F99A /* PBXTextBookmark */ = DD8A49521319A33600F1F99A /* PBXTextBookmark */;
 			DDCA2060131796A200DF990B /* PBXBookmark */ = DDCA2060131796A200DF990B /* PBXBookmark */;
 			DDE34758133401E00070A2CC /* PlistBookmark */ = DDE34758133401E00070A2CC /* PlistBookmark */;
 		};
@@ -75,25 +77,99 @@
 		userBuildSettings = {
 		};
 	};
-	DD49037913391CEF00B3F876 /* PBXTextBookmark */ = {
+	DD3ED49B133945A600667EFC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ReciclaSPAppDelegate.h */;
+		name = "ReciclaSPAppDelegate.h: 14";
+		rLen = 0;
+		rLoc = 270;
+		rType = 0;
+		vrLen = 383;
+		vrLoc = 0;
+	};
+	DD3ED49C133945A600667EFC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDCA20501317942E00DF990B /* ReciclaSPViewController.h */;
+		name = "ReciclaSPViewController.h: 6";
+		rLen = 19;
+		rLoc = 108;
+		rType = 0;
+		vrLen = 268;
+		vrLoc = 0;
+	};
+	DD3ED49D133945A600667EFC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* ReciclaSPAppDelegate.m */;
+		name = "ReciclaSPAppDelegate.m: 6";
+		rLen = 0;
+		rLoc = 124;
+		rType = 0;
+		vrLen = 1713;
+		vrLoc = 0;
+	};
+	DD3ED49E133945A600667EFC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDCA20511317942E00DF990B /* ReciclaSPViewController.m */;
+		name = "ReciclaSPViewController.m: 21";
+		rLen = 0;
+		rLoc = 529;
+		rType = 0;
+		vrLen = 1399;
+		vrLoc = 0;
+	};
+	DD3ED49F133945A600667EFC /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DDCA20511317942E00DF990B /* ReciclaSPViewController.m */;
+		name = "ReciclaSPViewController.m: 21";
+		rLen = 0;
+		rLoc = 529;
+		rType = 0;
+		vrLen = 1399;
+		vrLoc = 0;
+	};
+	DD4B907013392960007B4440 /* AboutViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 571}}";
+			sepNavSelRange = "{247, 0}";
+			sepNavVisRange = "{0, 254}";
+		};
+	};
+	DD4B907113392960007B4440 /* AboutViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 571}}";
+			sepNavSelRange = "{237, 0}";
+			sepNavVisRange = "{0, 686}";
+		};
+	};
+	DD4B9079133931EE007B4440 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = DD5879FB1315516100759F45 /* MapViewController.m */;
 		name = "MapViewController.m: 136";
 		rLen = 0;
 		rLoc = 3339;
 		rType = 0;
-		vrLen = 1004;
+		vrLen = 1003;
 		vrLoc = 2424;
 	};
-	DD49038213391D2900B3F876 /* PBXTextBookmark */ = {
+	DD4B907B133931EE007B4440 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = DD5879FB1315516100759F45 /* MapViewController.m */;
-		name = "MapViewController.m: 136";
+		fRef = DD4B907113392960007B4440 /* AboutViewController.m */;
+		name = "AboutViewController.m: 14";
 		rLen = 0;
-		rLoc = 3339;
+		rLoc = 237;
 		rType = 0;
-		vrLen = 1004;
-		vrLoc = 2424;
+		vrLen = 686;
+		vrLoc = 0;
+	};
+	DD4B909F1339352C007B4440 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = DD4B907013392960007B4440 /* AboutViewController.h */;
+		name = "AboutViewController.h: 15";
+		rLen = 0;
+		rLoc = 247;
+		rType = 0;
+		vrLen = 254;
+		vrLoc = 0;
 	};
 	DD58799B13154B7600759F45 /* ReciclaSP */ = {
 		isa = PBXExecutable;
@@ -139,16 +215,6 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	DD5879F613154F8A00759F45 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* ReciclaSPAppDelegate.h */;
-		name = "ReciclaSPAppDelegate.h: 14";
-		rLen = 0;
-		rLoc = 270;
-		rType = 0;
-		vrLen = 383;
-		vrLoc = 0;
-	};
 	DD5879FA1315516100759F45 /* MapViewController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1067, 673}}";
@@ -160,7 +226,7 @@
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {1067, 1924}}";
 			sepNavSelRange = "{3339, 0}";
-			sepNavVisRange = "{2424, 1004}";
+			sepNavVisRange = "{2424, 1003}";
 		};
 	};
 	DD587A02131553A600759F45 /* Pin.h */ = {
@@ -177,16 +243,6 @@
 			sepNavVisRange = "{0, 218}";
 		};
 	};
-	DD587A2C13155DFC00759F45 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623250D0F684500981E51 /* ReciclaSPAppDelegate.m */;
-		name = "ReciclaSPAppDelegate.m: 22";
-		rLen = 0;
-		rLoc = 439;
-		rType = 0;
-		vrLen = 1711;
-		vrLoc = 0;
-	};
 	DD881C38131DFD8C001EC0B5 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = DD5879FA1315516100759F45 /* MapViewController.h */;
@@ -195,16 +251,6 @@
 		rLoc = 516;
 		rType = 0;
 		vrLen = 576;
-		vrLoc = 0;
-	};
-	DD8A494F1319A33600F1F99A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DDCA20501317942E00DF990B /* ReciclaSPViewController.h */;
-		name = "ReciclaSPViewController.h: 13";
-		rLen = 0;
-		rLoc = 236;
-		rType = 0;
-		vrLen = 245;
 		vrLoc = 0;
 	};
 	DD8A49501319A33600F1F99A /* PBXTextBookmark */ = {
@@ -227,28 +273,18 @@
 		vrLen = 218;
 		vrLoc = 0;
 	};
-	DD8A49521319A33600F1F99A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = DDCA20511317942E00DF990B /* ReciclaSPViewController.m */;
-		name = "ReciclaSPViewController.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1421;
-		vrLoc = 0;
-	};
 	DDCA20501317942E00DF990B /* ReciclaSPViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1067, 676}}";
-			sepNavSelRange = "{236, 0}";
-			sepNavVisRange = "{0, 245}";
+			sepNavIntBoundsRect = "{{0, 0}, {1067, 658}}";
+			sepNavSelRange = "{108, 19}";
+			sepNavVisRange = "{0, 268}";
 		};
 	};
 	DDCA20511317942E00DF990B /* ReciclaSPViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1139, 780}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 1421}";
+			sepNavIntBoundsRect = "{{0, 0}, {1139, 871}}";
+			sepNavSelRange = "{529, 0}";
+			sepNavVisRange = "{0, 1399}";
 		};
 	};
 	DDCA2060131796A200DF990B /* PBXBookmark */ = {

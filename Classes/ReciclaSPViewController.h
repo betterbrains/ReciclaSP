@@ -13,4 +13,6 @@
 
 }
 
+-(IBAction)showAbout;
+
 @end

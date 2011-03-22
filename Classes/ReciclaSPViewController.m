@@ -7,9 +7,21 @@
 //
 
 #import "ReciclaSPViewController.h"
-
+#import "AboutViewController.h"
 
 @implementation ReciclaSPViewController
+
+-(IBAction)showAbout {
+	
+	AboutViewController *about = [[AboutViewController alloc] initWithNibName:@"AboutViewController" bundle:nil];
+	
+//	about.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+	
+	[self presentModalViewController:about animated:TRUE];
+	
+	[about release];
+	
+}
 
 // The designated initializer.  Override if you create the controller programmatically and want to perform customization that is not appropriate for viewDidLoad.
 /*

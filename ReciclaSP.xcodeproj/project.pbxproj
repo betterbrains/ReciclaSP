@@ -14,6 +14,8 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		DD49037513391C2900B3F876 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DD49037413391C2900B3F876 /* Default.png */; };
+		DD4B907313392960007B4440 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4B907113392960007B4440 /* AboutViewController.m */; };
+		DD4B907413392960007B4440 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD4B907213392960007B4440 /* AboutViewController.xib */; };
 		DD5879AA13154C5C00759F45 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5879A913154C5C00759F45 /* MapKit.framework */; };
 		DD5879FD1315516100759F45 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD5879FB1315516100759F45 /* MapViewController.m */; };
 		DD5879FE1315516100759F45 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD5879FC1315516100759F45 /* MapViewController.xib */; };
@@ -50,6 +52,9 @@
 		32CA4F630368D1EE00C91783 /* ReciclaSP_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReciclaSP_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ReciclaSP-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ReciclaSP-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 		DD49037413391C2900B3F876 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		DD4B907013392960007B4440 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		DD4B907113392960007B4440 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		DD4B907213392960007B4440 /* AboutViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AboutViewController.xib; sourceTree = "<group>"; };
 		DD5879A913154C5C00759F45 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		DD5879FA1315516100759F45 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MapViewController.h; path = Classes/MapViewController.h; sourceTree = "<group>"; };
 		DD5879FB1315516100759F45 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MapViewController.m; path = Classes/MapViewController.m; sourceTree = "<group>"; };
@@ -101,6 +106,9 @@
 				DDCA20501317942E00DF990B /* ReciclaSPViewController.h */,
 				DDCA20511317942E00DF990B /* ReciclaSPViewController.m */,
 				DDCA20521317942E00DF990B /* ReciclaSPViewController.xib */,
+				DD4B907013392960007B4440 /* AboutViewController.h */,
+				DD4B907113392960007B4440 /* AboutViewController.m */,
+				DD4B907213392960007B4440 /* AboutViewController.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -263,6 +271,7 @@
 				DD7750A613372B58004BDBBF /* Pev.plist in Resources */,
 				DDD60ED6133855D9009975E0 /* green_pin.png in Resources */,
 				DD49037513391C2900B3F876 /* Default.png in Resources */,
+				DD4B907413392960007B4440 /* AboutViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +287,7 @@
 				DD5879FD1315516100759F45 /* MapViewController.m in Sources */,
 				DD587A04131553A600759F45 /* Pin.m in Sources */,
 				DDCA20531317942E00DF990B /* ReciclaSPViewController.m in Sources */,
+				DD4B907313392960007B4440 /* AboutViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
