@@ -15,7 +15,7 @@
 	
 	AboutViewController *about = [[AboutViewController alloc] initWithNibName:@"AboutViewController" bundle:nil];
 	
-//	about.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+	about.modalTransitionStyle = UIModalTransitionStylePartialCurl;
 	
 	[self presentModalViewController:about animated:TRUE];
 	
