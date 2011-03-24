@@ -3,7 +3,7 @@
 //  ReciclaSP
 //
 //  Created by Luiz Aguiar.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Copyright 2011 Betterbrains Studio. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
