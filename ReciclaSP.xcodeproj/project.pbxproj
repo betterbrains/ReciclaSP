@@ -22,7 +22,6 @@
 		DD587A04131553A600759F45 /* Pin.m in Sources */ = {isa = PBXBuildFile; fileRef = DD587A03131553A600759F45 /* Pin.m */; };
 		DD587A19131556A400759F45 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD587A18131556A400759F45 /* CoreLocation.framework */; };
 		DD7750A613372B58004BDBBF /* Pev.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD7750A513372B58004BDBBF /* Pev.plist */; };
-		DD8D2FE213306AFA00A6DBCE /* Places.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD8D2FE113306AFA00A6DBCE /* Places.plist */; };
 		DD8EC041133B8E9D000CE25A /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8EC040133B8E9D000CE25A /* close.png */; };
 		DD8EC044133B90E9000CE25A /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8EC043133B90E9000CE25A /* orange.png */; };
 		DDCA1E4013175A8700DF990B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCA1E3713175A8700DF990B /* Icon-72.png */; };
@@ -65,7 +64,6 @@
 		DD587A03131553A600759F45 /* Pin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pin.m; path = Classes/Pin.m; sourceTree = "<group>"; };
 		DD587A18131556A400759F45 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		DD7750A513372B58004BDBBF /* Pev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Pev.plist; sourceTree = "<group>"; };
-		DD8D2FE113306AFA00A6DBCE /* Places.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Places.plist; sourceTree = "<group>"; };
 		DD8EC040133B8E9D000CE25A /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		DD8EC043133B90E9000CE25A /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
 		DDCA1E3713175A8700DF990B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
@@ -154,7 +152,6 @@
 				DDCA20481317938C00DF990B /* images */,
 				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
 				8D1107310486CEB800E47090 /* ReciclaSP-Info.plist */,
-				DD8D2FE113306AFA00A6DBCE /* Places.plist */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -273,7 +270,6 @@
 				DDCA1E5B131763B500DF990B /* 103-map.png in Resources */,
 				DDCA1E67131766A200DF990B /* Recicla.png in Resources */,
 				DDCA20541317942E00DF990B /* ReciclaSPViewController.xib in Resources */,
-				DD8D2FE213306AFA00A6DBCE /* Places.plist in Resources */,
 				DD7750A613372B58004BDBBF /* Pev.plist in Resources */,
 				DDD60ED6133855D9009975E0 /* green_pin.png in Resources */,
 				DD49037513391C2900B3F876 /* Default.png in Resources */,
