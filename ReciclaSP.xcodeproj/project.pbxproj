@@ -13,6 +13,8 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		DD3954871342544700B00F60 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3954861342544700B00F60 /* Reachability.m */; };
+		DD395493134254A900B00F60 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD395492134254A900B00F60 /* SystemConfiguration.framework */; };
 		DD49037513391C2900B3F876 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DD49037413391C2900B3F876 /* Default.png */; };
 		DD4B907313392960007B4440 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4B907113392960007B4440 /* AboutViewController.m */; };
 		DD4B907413392960007B4440 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD4B907213392960007B4440 /* AboutViewController.xib */; };
@@ -52,6 +54,9 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* ReciclaSP_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReciclaSP_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ReciclaSP-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ReciclaSP-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		DD3954851342544700B00F60 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		DD3954861342544700B00F60 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		DD395492134254A900B00F60 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		DD49037413391C2900B3F876 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		DD4B907013392960007B4440 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		DD4B907113392960007B4440 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
@@ -94,6 +99,7 @@
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 				DD5879AA13154C5C00759F45 /* MapKit.framework in Frameworks */,
 				DD587A19131556A400759F45 /* CoreLocation.framework in Frameworks */,
+				DD395493134254A900B00F60 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -103,6 +109,8 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				DD3954851342544700B00F60 /* Reachability.h */,
+				DD3954861342544700B00F60 /* Reachability.m */,
 				1D3623240D0F684500981E51 /* ReciclaSPAppDelegate.h */,
 				1D3623250D0F684500981E51 /* ReciclaSPAppDelegate.m */,
 				DDCA20501317942E00DF990B /* ReciclaSPViewController.h */,
@@ -164,6 +172,7 @@
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
 				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 				DD587A18131556A400759F45 /* CoreLocation.framework */,
+				DD395492134254A900B00F60 /* SystemConfiguration.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -292,6 +301,7 @@
 				DD587A04131553A600759F45 /* Pin.m in Sources */,
 				DDCA20531317942E00DF990B /* ReciclaSPViewController.m in Sources */,
 				DD4B907313392960007B4440 /* AboutViewController.m in Sources */,
+				DD3954871342544700B00F60 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
