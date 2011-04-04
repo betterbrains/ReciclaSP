@@ -3,8 +3,6 @@
 <plist version="1.0">
 <array>
 	<dict>
-		<key>id</key>
-		<string>5745</string>
 		<key>lat</key>
 		<string>-23.6380539</string>
 		<key>lng</key>
@@ -17,8 +15,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>3835</string>
 		<key>lat</key>
 		<string>-23.629461</string>
 		<key>lng</key>
@@ -31,8 +27,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1351</string>
 		<key>lat</key>
 		<string>-23.629417</string>
 		<key>lng</key>
@@ -45,8 +39,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5736</string>
 		<key>lat</key>
 		<string>-23.6288887</string>
 		<key>lng</key>
@@ -59,8 +51,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>4351</string>
 		<key>lat</key>
 		<string>-23.6253623</string>
 		<key>lng</key>
@@ -73,8 +63,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5791</string>
 		<key>lat</key>
 		<string>-23.6242309</string>
 		<key>lng</key>
@@ -87,8 +75,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>3834</string>
 		<key>lat</key>
 		<string>-23.6239733</string>
 		<key>lng</key>
@@ -101,8 +87,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1378</string>
 		<key>lat</key>
 		<string>-23.622456</string>
 		<key>lng</key>
@@ -115,8 +99,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1387</string>
 		<key>lat</key>
 		<string>-23.621037</string>
 		<key>lng</key>
@@ -129,8 +111,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1379</string>
 		<key>lat</key>
 		<string>-23.617913</string>
 		<key>lng</key>
@@ -143,8 +123,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1375</string>
 		<key>lat</key>
 		<string>-23.615231</string>
 		<key>lng</key>
@@ -157,8 +135,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1352</string>
 		<key>lat</key>
 		<string>-23.614422</string>
 		<key>lng</key>
@@ -171,8 +147,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5814</string>
 		<key>lat</key>
 		<string>-23.6140091</string>
 		<key>lng</key>
@@ -185,8 +159,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5474</string>
 		<key>lat</key>
 		<string>-23.6135351</string>
 		<key>lng</key>
@@ -199,8 +171,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1369</string>
 		<key>lat</key>
 		<string>-23.612863</string>
 		<key>lng</key>
@@ -213,8 +183,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5766</string>
 		<key>lat</key>
 		<string>-23.6124853</string>
 		<key>lng</key>
@@ -227,8 +195,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5717</string>
 		<key>lat</key>
 		<string>-23.6112862</string>
 		<key>lng</key>
@@ -241,8 +207,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5492</string>
 		<key>lat</key>
 		<string>-23.6103234</string>
 		<key>lng</key>
@@ -255,8 +219,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1372</string>
 		<key>lat</key>
 		<string>-23.609553</string>
 		<key>lng</key>
@@ -269,8 +231,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5804</string>
 		<key>lat</key>
 		<string>-23.609216671</string>
 		<key>lng</key>
@@ -283,8 +243,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5769</string>
 		<key>lat</key>
 		<string>-23.6085331</string>
 		<key>lng</key>
@@ -297,8 +255,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1336</string>
 		<key>lat</key>
 		<string>-23.604409</string>
 		<key>lng</key>
@@ -311,8 +267,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1376</string>
 		<key>lat</key>
 		<string>-23.602905</string>
 		<key>lng</key>
@@ -325,8 +279,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5494</string>
 		<key>lat</key>
 		<string>-23.6026774</string>
 		<key>lng</key>
@@ -339,8 +291,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>4302</string>
 		<key>lat</key>
 		<string>-23.6026008</string>
 		<key>lng</key>
@@ -353,8 +303,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1367</string>
 		<key>lat</key>
 		<string>-23.600853</string>
 		<key>lng</key>
@@ -367,8 +315,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1328</string>
 		<key>lat</key>
 		<string>-23.599883</string>
 		<key>lng</key>
@@ -381,8 +327,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5767</string>
 		<key>lat</key>
 		<string>-23.5984508</string>
 		<key>lng</key>
@@ -395,8 +339,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1356</string>
 		<key>lat</key>
 		<string>-23.593219</string>
 		<key>lng</key>
@@ -409,8 +351,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>4297</string>
 		<key>lat</key>
 		<string>-23.592345908</string>
 		<key>lng</key>
@@ -423,8 +363,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5819</string>
 		<key>lat</key>
 		<string>-23.5905973</string>
 		<key>lng</key>
@@ -437,8 +375,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>3831</string>
 		<key>lat</key>
 		<string>-23.5902831</string>
 		<key>lng</key>
@@ -451,8 +387,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>2652</string>
 		<key>lat</key>
 		<string>-23.588809</string>
 		<key>lng</key>
@@ -465,8 +399,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>3828</string>
 		<key>lat</key>
 		<string>-23.588188</string>
 		<key>lng</key>
@@ -479,8 +411,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5739</string>
 		<key>lat</key>
 		<string>-23.586408</string>
 		<key>lng</key>
@@ -493,8 +423,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>2582</string>
 		<key>lat</key>
 		<string>-23.586178</string>
 		<key>lng</key>
@@ -507,8 +435,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5734</string>
 		<key>lat</key>
 		<string>-23.5856831</string>
 		<key>lng</key>
@@ -521,8 +447,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1373</string>
 		<key>lat</key>
 		<string>-23.585651</string>
 		<key>lng</key>
@@ -535,8 +459,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1366</string>
 		<key>lat</key>
 		<string>-23.583464</string>
 		<key>lng</key>
@@ -549,8 +471,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>2577</string>
 		<key>lat</key>
 		<string>-23.582263</string>
 		<key>lng</key>
@@ -563,8 +483,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1350</string>
 		<key>lat</key>
 		<string>-23.580971</string>
 		<key>lng</key>
@@ -577,8 +495,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>3837</string>
 		<key>lat</key>
 		<string>-23.5802731</string>
 		<key>lng</key>
@@ -591,8 +507,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5789</string>
 		<key>lat</key>
 		<string>-23.5755999</string>
 		<key>lng</key>
@@ -605,8 +519,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>2647</string>
 		<key>lat</key>
 		<string>-23.574613</string>
 		<key>lng</key>
@@ -619,8 +531,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1368</string>
 		<key>lat</key>
 		<string>-23.572606</string>
 		<key>lng</key>
@@ -633,8 +543,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1361</string>
 		<key>lat</key>
 		<string>-23.57145</string>
 		<key>lng</key>
@@ -647,8 +555,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1359</string>
 		<key>lat</key>
 		<string>-23.565904</string>
 		<key>lng</key>
@@ -661,8 +567,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>3829</string>
 		<key>lat</key>
 		<string>-23.5658746</string>
 		<key>lng</key>
@@ -675,8 +579,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5793</string>
 		<key>lat</key>
 		<string>-23.5651579</string>
 		<key>lng</key>
@@ -689,8 +591,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>2578</string>
 		<key>lat</key>
 		<string>-23.564523</string>
 		<key>lng</key>
@@ -703,8 +603,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>2589</string>
 		<key>lat</key>
 		<string>-23.564276</string>
 		<key>lng</key>
@@ -717,8 +615,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1383</string>
 		<key>lat</key>
 		<string>-23.56307</string>
 		<key>lng</key>
@@ -731,8 +627,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1374</string>
 		<key>lat</key>
 		<string>-23.562563</string>
 		<key>lng</key>
@@ -745,8 +639,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>2651</string>
 		<key>lat</key>
 		<string>-23.561182</string>
 		<key>lng</key>
@@ -759,8 +651,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>6496</string>
 		<key>lat</key>
 		<string>-23.5584754</string>
 		<key>lng</key>
@@ -773,8 +663,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>2583</string>
 		<key>lat</key>
 		<string>-23.55806</string>
 		<key>lng</key>
@@ -787,8 +675,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5803</string>
 		<key>lat</key>
 		<string>-23.557398047</string>
 		<key>lng</key>
@@ -801,8 +687,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5788</string>
 		<key>lat</key>
 		<string>-23.5544044</string>
 		<key>lng</key>
@@ -815,8 +699,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>2650</string>
 		<key>lat</key>
 		<string>-23.553213</string>
 		<key>lng</key>
@@ -829,8 +711,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>2580</string>
 		<key>lat</key>
 		<string>-23.550956</string>
 		<key>lng</key>
@@ -843,8 +723,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>2585</string>
 		<key>lat</key>
 		<string>-23.550788</string>
 		<key>lng</key>
@@ -857,8 +735,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1381</string>
 		<key>lat</key>
 		<string>-23.54954</string>
 		<key>lng</key>
@@ -871,8 +747,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1382</string>
 		<key>lat</key>
 		<string>-23.548123</string>
 		<key>lng</key>
@@ -885,8 +759,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>2649</string>
 		<key>lat</key>
 		<string>-23.5458454</string>
 		<key>lng</key>
@@ -899,8 +771,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5711</string>
 		<key>lat</key>
 		<string>-23.5448702</string>
 		<key>lng</key>
@@ -913,8 +783,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1344</string>
 		<key>lat</key>
 		<string>-23.544336</string>
 		<key>lng</key>
@@ -927,8 +795,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>2653</string>
 		<key>lat</key>
 		<string>-23.544302</string>
 		<key>lng</key>
@@ -941,8 +807,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1370</string>
 		<key>lat</key>
 		<string>-23.542983</string>
 		<key>lng</key>
@@ -955,8 +819,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5799</string>
 		<key>lat</key>
 		<string>-23.5427103</string>
 		<key>lng</key>
@@ -969,8 +831,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5760</string>
 		<key>lat</key>
 		<string>-23.5415947</string>
 		<key>lng</key>
@@ -983,8 +843,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5801</string>
 		<key>lat</key>
 		<string>-23.54117</string>
 		<key>lng</key>
@@ -997,8 +855,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5757</string>
 		<key>lat</key>
 		<string>-23.5395177</string>
 		<key>lng</key>
@@ -1011,8 +867,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>2588</string>
 		<key>lat</key>
 		<string>-23.539393</string>
 		<key>lng</key>
@@ -1025,8 +879,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>2586</string>
 		<key>lat</key>
 		<string>-23.538956</string>
 		<key>lng</key>
@@ -1039,8 +891,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>-2</string>
 		<key>lat</key>
 		<string>-23.538868</string>
 		<key>lng</key>
@@ -1053,8 +903,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1331</string>
 		<key>lat</key>
 		<string>-23.535504</string>
 		<key>lng</key>
@@ -1067,8 +915,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>2648</string>
 		<key>lat</key>
 		<string>-23.535257</string>
 		<key>lng</key>
@@ -1081,8 +927,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1345</string>
 		<key>lat</key>
 		<string>-23.53524</string>
 		<key>lng</key>
@@ -1095,8 +939,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1340</string>
 		<key>lat</key>
 		<string>-23.528731</string>
 		<key>lng</key>
@@ -1109,8 +951,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5493</string>
 		<key>lat</key>
 		<string>-23.5280791</string>
 		<key>lng</key>
@@ -1123,8 +963,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>4331</string>
 		<key>lat</key>
 		<string>-23.5255385</string>
 		<key>lng</key>
@@ -1137,8 +975,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5794</string>
 		<key>lat</key>
 		<string>-23.5236772</string>
 		<key>lng</key>
@@ -1151,8 +987,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5703</string>
 		<key>lat</key>
 		<string>-23.5230959</string>
 		<key>lng</key>
@@ -1165,8 +999,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5753</string>
 		<key>lat</key>
 		<string>-23.5227968</string>
 		<key>lng</key>
@@ -1179,8 +1011,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5741</string>
 		<key>lat</key>
 		<string>-23.5227811</string>
 		<key>lng</key>
@@ -1193,8 +1023,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>2587</string>
 		<key>lat</key>
 		<string>-23.522173</string>
 		<key>lng</key>
@@ -1207,8 +1035,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>3408</string>
 		<key>lat</key>
 		<string>-23.522161</string>
 		<key>lng</key>
@@ -1221,8 +1047,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5832</string>
 		<key>lat</key>
 		<string>-23.518742008</string>
 		<key>lng</key>
@@ -1235,8 +1059,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>3832</string>
 		<key>lat</key>
 		<string>-23.517001</string>
 		<key>lng</key>
@@ -1249,8 +1071,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5790</string>
 		<key>lat</key>
 		<string>-23.5166831</string>
 		<key>lng</key>
@@ -1263,8 +1083,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1343</string>
 		<key>lat</key>
 		<string>-23.513339</string>
 		<key>lng</key>
@@ -1277,8 +1095,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5480</string>
 		<key>lat</key>
 		<string>-23.5130287</string>
 		<key>lng</key>
@@ -1291,8 +1107,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1347</string>
 		<key>lat</key>
 		<string>-23.512913</string>
 		<key>lng</key>
@@ -1305,8 +1119,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>2579</string>
 		<key>lat</key>
 		<string>-23.51076</string>
 		<key>lng</key>
@@ -1319,8 +1131,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>3212</string>
 		<key>lat</key>
 		<string>-23.509283</string>
 		<key>lng</key>
@@ -1333,8 +1143,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5752</string>
 		<key>lat</key>
 		<string>-23.5082556</string>
 		<key>lng</key>
@@ -1347,8 +1155,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>3634</string>
 		<key>lat</key>
 		<string>-23.506306710</string>
 		<key>lng</key>
@@ -1361,8 +1167,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1721</string>
 		<key>lat</key>
 		<string>-23.505615</string>
 		<key>lng</key>
@@ -1375,8 +1179,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1385</string>
 		<key>lat</key>
 		<string>-23.505055</string>
 		<key>lng</key>
@@ -1389,8 +1191,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5796</string>
 		<key>lat</key>
 		<string>-23.5048201</string>
 		<key>lng</key>
@@ -1403,8 +1203,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>2584</string>
 		<key>lat</key>
 		<string>-23.503983</string>
 		<key>lng</key>
@@ -1417,8 +1215,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5749</string>
 		<key>lat</key>
 		<string>-23.5017527</string>
 		<key>lng</key>
@@ -1431,8 +1227,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5469</string>
 		<key>lat</key>
 		<string>-23.5013052</string>
 		<key>lng</key>
@@ -1445,8 +1239,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5718</string>
 		<key>lat</key>
 		<string>-23.5011625</string>
 		<key>lng</key>
@@ -1459,8 +1251,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>3836</string>
 		<key>lat</key>
 		<string>-23.5009444</string>
 		<key>lng</key>
@@ -1473,8 +1263,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1327</string>
 		<key>lat</key>
 		<string>-23.495738</string>
 		<key>lng</key>
@@ -1487,8 +1275,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>2625</string>
 		<key>lat</key>
 		<string>-23.492197</string>
 		<key>lng</key>
@@ -1501,8 +1287,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1330</string>
 		<key>lat</key>
 		<string>-23.487946</string>
 		<key>lng</key>
@@ -1515,8 +1299,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5812</string>
 		<key>lat</key>
 		<string>-23.4831061</string>
 		<key>lng</key>
@@ -1529,8 +1311,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>4685</string>
 		<key>lat</key>
 		<string>-23.4756678</string>
 		<key>lng</key>
@@ -1543,8 +1323,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5735</string>
 		<key>lat</key>
 		<string>-23.4749333</string>
 		<key>lng</key>
@@ -1557,8 +1335,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5707</string>
 		<key>lat</key>
 		<string>-23.4726602</string>
 		<key>lng</key>
@@ -1571,8 +1347,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>3838</string>
 		<key>lat</key>
 		<string>-23.4725811</string>
 		<key>lng</key>
@@ -1585,8 +1359,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>3633</string>
 		<key>lat</key>
 		<string>-23.47035</string>
 		<key>lng</key>
@@ -1599,8 +1371,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>3640</string>
 		<key>lat</key>
 		<string>-23.469446475</string>
 		<key>lng</key>
@@ -1613,8 +1383,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5818</string>
 		<key>lat</key>
 		<string>-23.666859</string>
 		<key>lng</key>
@@ -1627,8 +1395,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1377</string>
 		<key>lat</key>
 		<string>-23.665867</string>
 		<key>lng</key>
@@ -1641,8 +1407,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>3833</string>
 		<key>lat</key>
 		<string>-23.6648483</string>
 		<key>lng</key>
@@ -1655,8 +1419,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5756</string>
 		<key>lat</key>
 		<string>-23.6647364</string>
 		<key>lng</key>
@@ -1669,8 +1431,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>4353</string>
 		<key>lat</key>
 		<string>-23.6643498</string>
 		<key>lng</key>
@@ -1683,8 +1443,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>4319</string>
 		<key>lat</key>
 		<string>-23.6636552</string>
 		<key>lng</key>
@@ -1697,8 +1455,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5715</string>
 		<key>lat</key>
 		<string>-23.6610335</string>
 		<key>lng</key>
@@ -1711,8 +1467,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5755</string>
 		<key>lat</key>
 		<string>-23.6555089</string>
 		<key>lng</key>
@@ -1725,8 +1479,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1380</string>
 		<key>lat</key>
 		<string>-23.655508</string>
 		<key>lng</key>
@@ -1739,8 +1491,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>4345</string>
 		<key>lat</key>
 		<string>-23.6549819</string>
 		<key>lng</key>
@@ -1753,8 +1503,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1365</string>
 		<key>lat</key>
 		<string>-23.653137</string>
 		<key>lng</key>
@@ -1767,8 +1515,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1364</string>
 		<key>lat</key>
 		<string>-23.651664</string>
 		<key>lng</key>
@@ -1781,8 +1527,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>4349</string>
 		<key>lat</key>
 		<string>-23.6512173</string>
 		<key>lng</key>
@@ -1795,8 +1539,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1428</string>
 		<key>lat</key>
 		<string>-23.648553</string>
 		<key>lng</key>
@@ -1809,8 +1551,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>5716</string>
 		<key>lat</key>
 		<string>-23.644774</string>
 		<key>lng</key>
@@ -1823,8 +1563,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>4313</string>
 		<key>lat</key>
 		<string>-23.6408275</string>
 		<key>lng</key>
@@ -1837,8 +1575,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1386</string>
 		<key>lat</key>
 		<string>-23.640198</string>
 		<key>lng</key>
@@ -1851,8 +1587,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>1335</string>
 		<key>lat</key>
 		<string>-23.639205</string>
 		<key>lng</key>
@@ -1865,8 +1599,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>4316</string>
 		<key>lat</key>
 		<string>-23.6384889</string>
 		<key>lng</key>
@@ -1879,8 +1611,6 @@
 		<string>pev</string>
 	</dict>
 	<dict>
-		<key>id</key>
-		<string>4315</string>
 		<key>lat</key>
 		<string>-23.6383368</string>
 		<key>lng</key>
