@@ -13,6 +13,7 @@
 		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		DD1B2C0D1353FECC005F9175 /* ReciclaSP-transparency.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1B2C0C1353FECC005F9175 /* ReciclaSP-transparency.png */; };
 		DD3954871342544700B00F60 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3954861342544700B00F60 /* Reachability.m */; };
 		DD395493134254A900B00F60 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD395492134254A900B00F60 /* SystemConfiguration.framework */; };
 		DD49037513391C2900B3F876 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DD49037413391C2900B3F876 /* Default.png */; };
@@ -25,7 +26,6 @@
 		DD587A19131556A400759F45 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD587A18131556A400759F45 /* CoreLocation.framework */; };
 		DD7750A613372B58004BDBBF /* Pev.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD7750A513372B58004BDBBF /* Pev.plist */; };
 		DD8EC041133B8E9D000CE25A /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8EC040133B8E9D000CE25A /* close.png */; };
-		DD8EC044133B90E9000CE25A /* orange.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8EC043133B90E9000CE25A /* orange.png */; };
 		DDCA1E4013175A8700DF990B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCA1E3713175A8700DF990B /* Icon-72.png */; };
 		DDCA1E4113175A8700DF990B /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCA1E3813175A8700DF990B /* Icon-Small-50.png */; };
 		DDCA1E4213175A8700DF990B /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCA1E3913175A8700DF990B /* Icon-Small.png */; };
@@ -54,6 +54,7 @@
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* ReciclaSP_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReciclaSP_Prefix.pch; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* ReciclaSP-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ReciclaSP-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		DD1B2C0C1353FECC005F9175 /* ReciclaSP-transparency.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReciclaSP-transparency.png"; sourceTree = "<group>"; };
 		DD3954851342544700B00F60 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		DD3954861342544700B00F60 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		DD395492134254A900B00F60 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -70,7 +71,6 @@
 		DD587A18131556A400759F45 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		DD7750A513372B58004BDBBF /* Pev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Pev.plist; sourceTree = "<group>"; };
 		DD8EC040133B8E9D000CE25A /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
-		DD8EC043133B90E9000CE25A /* orange.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orange.png; sourceTree = "<group>"; };
 		DDCA1E3713175A8700DF990B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		DDCA1E3813175A8700DF990B /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
 		DDCA1E3913175A8700DF990B /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
@@ -180,7 +180,7 @@
 		DDCA20481317938C00DF990B /* images */ = {
 			isa = PBXGroup;
 			children = (
-				DD8EC043133B90E9000CE25A /* orange.png */,
+				DD1B2C0C1353FECC005F9175 /* ReciclaSP-transparency.png */,
 				DD8EC040133B8E9D000CE25A /* close.png */,
 				DD49037413391C2900B3F876 /* Default.png */,
 				DDD60ED5133855D9009975E0 /* green_pin.png */,
@@ -284,7 +284,7 @@
 				DD49037513391C2900B3F876 /* Default.png in Resources */,
 				DD4B907413392960007B4440 /* AboutViewController.xib in Resources */,
 				DD8EC041133B8E9D000CE25A /* close.png in Resources */,
-				DD8EC044133B90E9000CE25A /* orange.png in Resources */,
+				DD1B2C0D1353FECC005F9175 /* ReciclaSP-transparency.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
