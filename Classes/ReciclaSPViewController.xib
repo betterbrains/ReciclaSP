@@ -65,7 +65,7 @@
 						<string key="NSFrame">{{64, 129}, {193, 43}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="579888985"/>
+						<reference key="NSNextKeyView" ref="138865702"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
@@ -99,16 +99,16 @@
 						<string key="NSFrame">{{36, 231}, {249, 39}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="138865702"/>
+						<reference key="NSNextKeyView" ref="761276224"/>
 						<bool key="IBUIOpaque">NO</bool>
 						<bool key="IBUIClipsSubviews">YES</bool>
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">PEV - Ponto de Entrega Voluntária</string>
-						<object class="NSFont" key="IBUIFont">
+						<string key="IBUIText">PEV (Ponto de Entrega Voluntária)</string>
+						<object class="NSFont" key="IBUIFont" id="109587429">
 							<string key="NSName">Helvetica-Bold</string>
-							<double key="NSSize">14</double>
+							<double key="NSSize">15</double>
 							<int key="NSfFlags">16</int>
 						</object>
 						<reference key="IBUITextColor" ref="1032789144"/>
@@ -128,11 +128,7 @@
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
 						<int key="IBUIContentHorizontalAlignment">0</int>
 						<int key="IBUIContentVerticalAlignment">0</int>
-						<object class="NSFont" key="IBUIFont">
-							<string key="NSName">Helvetica-Bold</string>
-							<double key="NSSize">15</double>
-							<int key="NSfFlags">16</int>
-						</object>
+						<reference key="IBUIFont" ref="109587429"/>
 						<int key="IBUIButtonType">4</int>
 						<bool key="IBUIShowsTouchWhenHighlighted">YES</bool>
 						<reference key="IBUIHighlightedTitleColor" ref="24756640"/>
@@ -148,17 +144,21 @@
 					<object class="IBUITextView" id="138865702">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{35, 272}, {242, 90}}</string>
+						<string key="NSFrame">{{35, 260}, {242, 84}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
-						<reference key="NSNextKeyView" ref="761276224"/>
+						<reference key="NSNextKeyView" ref="579888985"/>
 						<object class="NSColor" key="IBUIBackgroundColor">
 							<int key="NSColorSpace">1</int>
-							<bytes key="NSRGB">MC43MDU4ODIzNTI5IDAuMTc2NDcwNTg4MiAwLjE3NjQ3MDU4ODIAA</bytes>
+							<bytes key="NSRGB">MC42Njc4ODMyMTE3IDAuMTc2NDcwNTg4MiAwLjE3NjQ3MDU4ODIAA</bytes>
 						</object>
 						<bool key="IBUIMultipleTouchEnabled">YES</bool>
 						<string key="IBUIContentStretch">{{1.38778e-17, 0}, {1, 1}}</string>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
+						<bool key="IBUIBounces">NO</bool>
+						<bool key="IBUIScrollEnabled">NO</bool>
+						<bool key="IBUIShowsHorizontalScrollIndicator">NO</bool>
+						<bool key="IBUIShowsVerticalScrollIndicator">NO</bool>
 						<bool key="IBUIEditable">NO</bool>
 						<string key="IBUIText">Os PEVs são locais públicos, onde pode-se levar e depositar resíduos domésticos recicláveis, separados para a coleta seletiva.</string>
 						<object class="NSFont" key="IBUIFont">
@@ -180,7 +180,7 @@
 				<reference key="NSNextKeyView" ref="1064691310"/>
 				<object class="NSColor" key="IBUIBackgroundColor">
 					<int key="NSColorSpace">1</int>
-					<bytes key="NSRGB">MC43MDU4ODIzNTI5IDAuMTc2NDcwNTg4MiAwLjE3NjQ3MDU4ODIAA</bytes>
+					<bytes key="NSRGB">MC42Njc4ODMyMTE3IDAuMTc2NDcwNTg4MiAwLjE3NjQ3MDU4ODIAA</bytes>
 				</object>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics">
 					<int key="IBUIStatusBarStyle">1</int>
