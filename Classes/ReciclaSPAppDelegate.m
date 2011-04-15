@@ -23,6 +23,8 @@
 	
     [self.window makeKeyAndVisible];
     
+    [NSThread sleepForTimeInterval:3.0];
+    
     return YES;
 }
 
