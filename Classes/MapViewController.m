@@ -7,6 +7,7 @@
 //
 
 #import "MapViewController.h"
+#import "Reachability.h"
 
 
 @implementation MapViewController
@@ -84,6 +85,8 @@
 	[locManager stopUpdatingLocation];
 	
 	locManager = nil;
+    
+    [self checkNetworkStatus];
 	
 }
 
@@ -128,6 +131,28 @@
     }
     
     [places release];
+    
+    [self checkNetworkStatus];
+    
+}
+
+
+- (void)checkNetworkStatus {
+
+    Reachability *r = [Reachability reachabilityWithHostName:@"www.google.com"];
+    NetworkStatus internetStatus = [r currentReachabilityStatus];
+    
+    if (internetStatus == NotReachable) {
+        UIAlertView *alert  = [[UIAlertView alloc] initWithTitle:@"Falha de conexão" 
+                                                         message:@"Não foi possível conectar à internet." 
+                                                        delegate:nil 
+                                               cancelButtonTitle:@"OK" 
+                                               otherButtonTitles:nil ];
+        
+        [alert show];
+        
+        [alert release];
+    }
     
 }
 

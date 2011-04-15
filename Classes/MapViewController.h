@@ -24,5 +24,6 @@
 -(IBAction)gotoMyPlace;
 
 -(void)addAllAnnotations;
+-(void)checkNetworkStatus;
 
 @end
