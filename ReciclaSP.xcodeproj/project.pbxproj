@@ -24,6 +24,7 @@
 		DD5879FE1315516100759F45 /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD5879FC1315516100759F45 /* MapViewController.xib */; };
 		DD587A04131553A600759F45 /* Pin.m in Sources */ = {isa = PBXBuildFile; fileRef = DD587A03131553A600759F45 /* Pin.m */; };
 		DD587A19131556A400759F45 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD587A18131556A400759F45 /* CoreLocation.framework */; };
+		DD675310135D364B0027A423 /* ReciclaSP-title.png in Resources */ = {isa = PBXBuildFile; fileRef = DD67530F135D364B0027A423 /* ReciclaSP-title.png */; };
 		DD7750A613372B58004BDBBF /* Pev.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD7750A513372B58004BDBBF /* Pev.plist */; };
 		DD8EC041133B8E9D000CE25A /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8EC040133B8E9D000CE25A /* close.png */; };
 		DDCA1E4013175A8700DF990B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCA1E3713175A8700DF990B /* Icon-72.png */; };
@@ -69,6 +70,7 @@
 		DD587A02131553A600759F45 /* Pin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pin.h; path = Classes/Pin.h; sourceTree = "<group>"; };
 		DD587A03131553A600759F45 /* Pin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pin.m; path = Classes/Pin.m; sourceTree = "<group>"; };
 		DD587A18131556A400759F45 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		DD67530F135D364B0027A423 /* ReciclaSP-title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReciclaSP-title.png"; sourceTree = "<group>"; };
 		DD7750A513372B58004BDBBF /* Pev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Pev.plist; sourceTree = "<group>"; };
 		DD8EC040133B8E9D000CE25A /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
 		DDCA1E3713175A8700DF990B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
@@ -180,6 +182,7 @@
 		DDCA20481317938C00DF990B /* images */ = {
 			isa = PBXGroup;
 			children = (
+				DD67530F135D364B0027A423 /* ReciclaSP-title.png */,
 				DD1B2C0C1353FECC005F9175 /* ReciclaSP-transparency.png */,
 				DD8EC040133B8E9D000CE25A /* close.png */,
 				DD49037413391C2900B3F876 /* Default.png */,
@@ -285,6 +288,7 @@
 				DD4B907413392960007B4440 /* AboutViewController.xib in Resources */,
 				DD8EC041133B8E9D000CE25A /* close.png in Resources */,
 				DD1B2C0D1353FECC005F9175 /* ReciclaSP-transparency.png in Resources */,
+				DD675310135D364B0027A423 /* ReciclaSP-title.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
