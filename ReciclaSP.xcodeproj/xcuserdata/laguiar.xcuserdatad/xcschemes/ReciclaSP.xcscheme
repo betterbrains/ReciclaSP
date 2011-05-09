@@ -14,7 +14,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-               BuildableName = "ReciclaSP.app"
+               BuildableName = "Recicla SP.app"
                BlueprintName = "ReciclaSP"
                ReferencedContainer = "container:ReciclaSP.xcodeproj">
             </BuildableReference>
@@ -41,7 +41,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "ReciclaSP.app"
+            BuildableName = "Recicla SP.app"
             BlueprintName = "ReciclaSP"
             ReferencedContainer = "container:ReciclaSP.xcodeproj">
          </BuildableReference>
@@ -60,7 +60,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1D6058900D05DD3D006BFB54"
-            BuildableName = "ReciclaSP.app"
+            BuildableName = "Recicla SP.app"
             BlueprintName = "ReciclaSP"
             ReferencedContainer = "container:ReciclaSP.xcodeproj">
          </BuildableReference>
