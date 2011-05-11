@@ -42,6 +42,7 @@
 		DDCA20531317942E00DF990B /* ReciclaSPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDCA20511317942E00DF990B /* ReciclaSPViewController.m */; };
 		DDCA20541317942E00DF990B /* ReciclaSPViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDCA20521317942E00DF990B /* ReciclaSPViewController.xib */; };
 		DDD60ED6133855D9009975E0 /* green_pin.png in Resources */ = {isa = PBXBuildFile; fileRef = DDD60ED5133855D9009975E0 /* green_pin.png */; };
+		DDDBA872137A44CA00DB3893 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DDDBA871137A44CA00DB3893 /* Default@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -89,6 +90,7 @@
 		DDCA20511317942E00DF990B /* ReciclaSPViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReciclaSPViewController.m; sourceTree = "<group>"; };
 		DDCA20521317942E00DF990B /* ReciclaSPViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReciclaSPViewController.xib; sourceTree = "<group>"; };
 		DDD60ED5133855D9009975E0 /* green_pin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = green_pin.png; sourceTree = "<group>"; };
+		DDDBA871137A44CA00DB3893 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 		DDCA20481317938C00DF990B /* images */ = {
 			isa = PBXGroup;
 			children = (
+				DDDBA871137A44CA00DB3893 /* Default@2x.png */,
 				DD67530F135D364B0027A423 /* ReciclaSP-title.png */,
 				DD1B2C0C1353FECC005F9175 /* ReciclaSP-transparency.png */,
 				DD8EC040133B8E9D000CE25A /* close.png */,
@@ -289,6 +292,7 @@
 				DD8EC041133B8E9D000CE25A /* close.png in Resources */,
 				DD1B2C0D1353FECC005F9175 /* ReciclaSP-transparency.png in Resources */,
 				DD675310135D364B0027A423 /* ReciclaSP-title.png in Resources */,
+				DDDBA872137A44CA00DB3893 /* Default@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
