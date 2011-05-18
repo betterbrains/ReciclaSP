@@ -1622,5 +1622,53 @@
 		<key>type</key>
 		<string>pev</string>
 	</dict>
+	<dict>
+		<key>lat</key>
+		<string>-22.943164</string>
+		<key>lng</key>
+		<string>-47.109166</string>
+		<key>location</key>
+		<string>Av. Ruy Rodrigues, 1400</string>
+		<key>name</key>
+		<string>Extra - Amoreiras</string>
+		<key>type</key>
+		<string>pev</string>
+	</dict>
+	<dict>
+		<key>lat</key>
+		<string>-23.453616</string>
+		<key>lng</key>
+		<string>-46.534556</string>
+		<key>location</key>
+		<string>Av. Salgado Filho, 1301</string>
+		<key>name</key>
+		<string>Extra - Bosque Maia</string>
+		<key>type</key>
+		<string>pev</string>
+	</dict>
+	<dict>
+		<key>lat</key>
+		<string>-23.689525</string>
+		<key>lng</key>
+		<string>-46.590641</string>
+		<key>location</key>
+		<string>Av. Piraporinha, 1144</string>
+		<key>name</key>
+		<string>Extra - Diadema</string>
+		<key>type</key>
+		<string>pev</string>
+	</dict>
+	<dict>
+		<key>lat</key>
+		<string>-23.255797</string>
+		<key>lng</key>
+		<string>-47.344959</string>
+		<key>location</key>
+		<string>Rod. Marechal Rondon, KM 105</string>
+		<key>name</key>
+		<string>Extra - Itu</string>
+		<key>type</key>
+		<string>pev</string>
+	</dict>
 </array>
 </plist>
