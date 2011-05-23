@@ -279,7 +279,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>26</integer>
+									<integer>4</integer>
+									<integer>1</integer>
 									<integer>0</integer>
 								</array>
 							</array>
@@ -329,7 +330,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>DD395496134254EF00B00F60</string>
+										<string>DD7A9232138B057600FA93E6</string>
 										<key>history</key>
 										<array>
 											<string>DDCA2060131796A200DF990B</string>
@@ -344,7 +345,7 @@
 											<string>DDB3EF14133A82EF00E2F77B</string>
 											<string>DD8EC048133B9138000CE25A</string>
 											<string>DD8EC049133B9138000CE25A</string>
-											<string>DD8EC04B133B9138000CE25A</string>
+											<string>DD395496134254EF00B00F60</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -358,18 +359,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {1079, 618}}</string>
+								<string>{{0, 0}, {1079, 613}}</string>
 								<key>RubberWindowFrame</key>
 								<string>132 144 1375 860 0 0 1920 1058 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>618pt</string>
+							<string>613pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>196pt</string>
+							<string>201pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -383,7 +384,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {1079, 169}}</string>
+										<string>{{10, 27}, {1079, 174}}</string>
 										<key>RubberWindowFrame</key>
 										<string>132 144 1375 860 0 0 1920 1058 </string>
 									</dict>
@@ -467,11 +468,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>DD395497134254EF00B00F60</string>
+				<string>DD7A922F138B038300FA93E6</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>DD395498134254EF00B00F60</string>
+				<string>DD7A9230138B038300FA93E6</string>
 				<string>DD5879C513154C7D00759F45</string>
-				<string>DD395499134254EF00B00F60</string>
+				<string>DD7A9231138B038300FA93E6</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>

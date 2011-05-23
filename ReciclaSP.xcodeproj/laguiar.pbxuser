@@ -2,7 +2,7 @@
 {
 	1D3623240D0F684500981E51 /* ReciclaSPAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1018, 586}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1018, 581}}";
 			sepNavSelRange = "{113, 0}";
 			sepNavVisRange = "{0, 385}";
 		};
@@ -55,20 +55,20 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 323114005;
-			PBXWorkspaceStateSaveDate = 323114005;
+			PBXPerProjectTemplateStateSaveDate = 327877487;
+			PBXWorkspaceStateSaveDate = 327877487;
 		};
 		perUserProjectItems = {
 			DD395496134254EF00B00F60 /* PBXTextBookmark */ = DD395496134254EF00B00F60 /* PBXTextBookmark */;
 			DD4B9079133931EE007B4440 /* PBXTextBookmark */ = DD4B9079133931EE007B4440 /* PBXTextBookmark */;
 			DD4B907B133931EE007B4440 /* PBXTextBookmark */ = DD4B907B133931EE007B4440 /* PBXTextBookmark */;
 			DD4B909F1339352C007B4440 /* PBXTextBookmark */ = DD4B909F1339352C007B4440 /* PBXTextBookmark */;
+			DD7A9232138B057600FA93E6 /* PBXTextBookmark */ = DD7A9232138B057600FA93E6 /* PBXTextBookmark */;
 			DD881C38131DFD8C001EC0B5 /* PBXTextBookmark */ = DD881C38131DFD8C001EC0B5 /* PBXTextBookmark */;
 			DD8A49501319A33600F1F99A /* PBXTextBookmark */ = DD8A49501319A33600F1F99A /* PBXTextBookmark */;
 			DD8A49511319A33600F1F99A /* PBXTextBookmark */ = DD8A49511319A33600F1F99A /* PBXTextBookmark */;
 			DD8EC048133B9138000CE25A /* PBXTextBookmark */ = DD8EC048133B9138000CE25A /* PBXTextBookmark */;
 			DD8EC049133B9138000CE25A /* PBXTextBookmark */ = DD8EC049133B9138000CE25A /* PBXTextBookmark */;
-			DD8EC04B133B9138000CE25A /* PBXTextBookmark */ = DD8EC04B133B9138000CE25A /* PBXTextBookmark */;
 			DDB3EF13133A82EF00E2F77B /* PBXTextBookmark */ = DDB3EF13133A82EF00E2F77B /* PBXTextBookmark */;
 			DDB3EF14133A82EF00E2F77B /* PlistBookmark */ = DDB3EF14133A82EF00E2F77B /* PlistBookmark */;
 			DDCA2060131796A200DF990B /* PBXBookmark */ = DDCA2060131796A200DF990B /* PBXBookmark */;
@@ -204,6 +204,16 @@
 			sepNavVisRange = "{0, 218}";
 		};
 	};
+	DD7A9232138B057600FA93E6 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* ReciclaSPAppDelegate.h */;
+		name = "ReciclaSPAppDelegate.h: 6";
+		rLen = 0;
+		rLoc = 113;
+		rType = 0;
+		vrLen = 385;
+		vrLoc = 0;
+	};
 	DD881C38131DFD8C001EC0B5 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = DD5879FA1315516100759F45 /* MapViewController.h */;
@@ -252,16 +262,6 @@
 		rLoc = 124;
 		rType = 0;
 		vrLen = 1546;
-		vrLoc = 0;
-	};
-	DD8EC04B133B9138000CE25A /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 1D3623240D0F684500981E51 /* ReciclaSPAppDelegate.h */;
-		name = "ReciclaSPAppDelegate.h: 6";
-		rLen = 0;
-		rLoc = 113;
-		rType = 0;
-		vrLen = 385;
 		vrLoc = 0;
 	};
 	DDB3EF13133A82EF00E2F77B /* PBXTextBookmark */ = {

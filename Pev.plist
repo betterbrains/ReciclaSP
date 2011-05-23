@@ -236,7 +236,7 @@
 		<key>lng</key>
 		<string>-46.75330638</string>
 		<key>location</key>
-		<string>R. João Batista de Oliveira, 47</string>
+		<string>R. João Batista de Oliveira, 47/329</string>
 		<key>name</key>
 		<string>Extra - Taboão da Serra</string>
 		<key>type</key>
@@ -1658,17 +1658,113 @@
 		<key>type</key>
 		<string>pev</string>
 	</dict>
-	<dict>
-		<key>lat</key>
-		<string>-23.255797</string>
-		<key>lng</key>
-		<string>-47.344959</string>
-		<key>location</key>
-		<string>Rod. Marechal Rondon, KM 105</string>
-		<key>name</key>
-		<string>Extra - Itu</string>
-		<key>type</key>
-		<string>pev</string>
-	</dict>
+  <dict>
+    <key>lat</key>
+    <string>-23.255797</string>
+    <key>lng</key>
+    <string>-47.344959</string>
+    <key>location</key>
+    <string>Rod. Marechal Rondon, KM 105</string>
+    <key>name</key>
+    <string>Extra - Itú</string>
+    <key>type</key>
+    <string>pev</string>
+  </dict>
+  <dict>
+    <key>lat</key>
+    <string>-23.957764</string>
+    <key>lng</key>
+    <string>-46.331787</string>
+    <key>location</key>
+    <string>Av. Ana Costa, 318/340</string>
+    <key>name</key>
+    <string>Extra - Santos</string>
+    <key>type</key>
+    <string>pev</string>
+  </dict>
+  <dict>
+    <key>lat</key>
+    <string>-23.963365</string>
+    <key>lng</key>
+    <string>-46.381622</string>
+    <key>location</key>
+    <string>R. Antonio Emmeric, 245</string>
+    <key>name</key>
+    <string>Extra - São Vicente</string>
+    <key>type</key>
+    <string>pev</string>
+  </dict>
+  <dict>
+    <key>lat</key>
+    <string>-23.488914</string>
+    <key>lng</key>
+    <string>-47.443487</string>
+    <key>location</key>
+    <string>R. Maria Cinto de Biaggi, 164</string>
+    <key>name</key>
+    <string>Extra - Sorocaba</string>
+    <key>type</key>
+    <string>pev</string>
+  </dict>
+  <dict>
+    <key>lat</key>
+    <string>-24.190963</string>
+    <key>lng</key>
+    <string>-46.813812</string>
+    <key>location</key>
+    <string>Av. 31 de Março, S/N</string>
+    <key>name</key>
+    <string>Extra - Itanhaêm</string>
+    <key>type</key>
+    <string>pev</string>
+  </dict>
+  <dict>
+    <key>lat</key>
+    <string>-23.533483</string>
+    <key>lng</key>
+    <string>-46.775437</string>
+    <key>location</key>
+    <string>R. Dona Primitiva Vianco, 400</string>
+    <key>name</key>
+    <string>Extra - Osasco Primitiva</string>
+    <key>type</key>
+    <string>pev</string>
+  </dict>
+  <dict>
+    <key>lat</key>
+    <string>-23.511622</string>
+    <key>lng</key>
+    <string>-46.190354</string>
+    <key>location</key>
+    <string>Av. Pref. Carlos F. Lopes, 600</string>
+    <key>name</key>
+    <string>Extra - Mogi Lar</string>
+    <key>type</key>
+    <string>pev</string>
+  </dict>
+  <dict>
+    <key>lat</key>
+    <string>-23.543299</string>
+    <key>lng</key>
+    <string>-46.210101</string>
+    <key>location</key>
+    <string>Av. Henrique Perez, 1330</string>
+    <key>name</key>
+    <string>Extra - Bráz Cubas</string>
+    <key>type</key>
+    <string>pev</string>
+  </dict>
+  <dict>
+    <key>lat</key>
+    <string>-23.205958</string>
+    <key>lng</key>
+    <string>-45.905997</string>
+    <key>location</key>
+    <string>R. Jorge Zarur, 100</string>
+    <key>name</key>
+    <string>Extra - São José Colinas</string>
+    <key>type</key>
+    <string>pev</string>
+  </dict>
 </array>
 </plist>
