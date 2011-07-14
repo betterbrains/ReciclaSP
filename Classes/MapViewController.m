@@ -27,6 +27,56 @@
 	[locManager startUpdatingLocation];
 }
 
+- (IBAction)showHideSearchBar
+{
+    [UIView beginAnimations:nil context:nil];
+    [UIView setAnimationDuration:0.5]; 
+    
+    //bool o = [UIDevice currentDevice].orientation ==UIInterfaceOrientationPortrait;
+    
+    if (sbLocation.center.y > 0) {
+        // the searchBar is inside the screen, so lets hide
+        sbLocation.center = CGPointMake(sbLocation.center.x, -23);
+        
+        // retract the map
+        map.frame = CGRectMake(0, 0, 320, 416);
+    } else {
+        // the searchBar is outside the screen, so lets show
+        sbLocation.center = CGPointMake(sbLocation.center.x, 21);
+
+        // stretch the map
+        map.frame = CGRectMake(0, 44, 320, 370);
+    }
+    
+    [UIView commitAnimations];
+
+}
+
+-(void)searchBarSearchButtonClicked:(UISearchBar *)searchBar
+{
+    
+    NSString *newLocation = searchBar.text;
+    
+    //troco esses caracteres por codigos validos para URL
+    //urlString = [urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    
+    // hide keyboard
+    [sbLocation resignFirstResponder];
+    
+    // hide the searchBar
+    [self showHideSearchBar];
+}
+
+- (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar
+{
+    searchBar.text = nil;
+    [self showHideSearchBar];    
+
+    // hide keyboard
+    [sbLocation resignFirstResponder];
+    
+}
+
 
 - (MKAnnotationView *)mapView:(MKMapView *)mapView viewForAnnotation:(id <MKAnnotation>)annotation
 {

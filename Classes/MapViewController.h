@@ -12,16 +12,18 @@
 #import "Pin.h"
 
 
-@interface MapViewController : UIViewController <MKMapViewDelegate, MKReverseGeocoderDelegate, CLLocationManagerDelegate>
+@interface MapViewController : UIViewController <MKMapViewDelegate, MKReverseGeocoderDelegate, CLLocationManagerDelegate, UISearchBarDelegate>
 {
 	IBOutlet MKMapView *map;
 	IBOutlet UISegmentedControl *seg;
-	
+	IBOutlet UISearchBar *sbLocation;
+    
 	CLLocationManager *locManager;
 }
 
 -(IBAction)changeMapType;
 -(IBAction)gotoMyPlace;
+-(IBAction)showHideSearchBar;
 
 -(void)addAllAnnotations;
 -(void)checkNetworkStatus;
