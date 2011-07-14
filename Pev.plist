@@ -1766,5 +1766,17 @@
     <key>type</key>
     <string>pev</string>
   </dict>
+  <dict>
+    <key>lat</key>
+    <string>-23.56093</string>
+    <key>lng</key>
+    <string>-46.70160</string>
+    <key>location</key>
+    <string>Av. Professor Frederico Hermann Júnior, 345</string>
+    <key>name</key>
+    <string>CETESB</string>
+    <key>type</key>
+    <string>pev</string>
+  </dict>
 </array>
 </plist>
