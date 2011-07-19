@@ -8,6 +8,7 @@
 
 #import "MapViewController.h"
 #import "Reachability.h"
+#import "JSONKit.h"
 
 
 @implementation MapViewController
@@ -30,7 +31,7 @@
 - (IBAction)showHideSearchBar
 {
     [UIView beginAnimations:nil context:nil];
-    [UIView setAnimationDuration:0.5]; 
+    [UIView setAnimationDuration:0.3]; 
     
     //bool o = [UIDevice currentDevice].orientation ==UIInterfaceOrientationPortrait;
     
@@ -54,17 +55,31 @@
 
 -(void)searchBarSearchButtonClicked:(UISearchBar *)searchBar
 {
+    NSString *mapsURL = @"http://maps.googleapis.com/maps/api/geocode/json?address=";
     
-    NSString *newLocation = searchBar.text;
+    NSString *address = searchBar.text;
+    address = [address stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     
-    //troco esses caracteres por codigos validos para URL
-    //urlString = [urlString stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+    mapsURL = [mapsURL stringByAppendingString:address];
+    
+    NSData *data = [[NSData alloc] initWithContentsOfURL:[[NSURL alloc] initWithString:mapsURL]];
+    
+    JSONDecoder *decoder = [[JSONDecoder alloc] initWithParseOptions:JKParseOptionNone];
+    NSArray *items = [decoder objectWithData:data];
+    
+    NSLog(@"Numbers os items: %d", [items count]);
     
     // hide keyboard
     [sbLocation resignFirstResponder];
     
     // hide the searchBar
     [self showHideSearchBar];
+    
+    [mapsURL release];
+    [address release];
+    [decoder release];
+    [data release];
+    [items release];
 }
 
 - (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar
