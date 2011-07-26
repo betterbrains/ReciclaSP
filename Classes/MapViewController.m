@@ -63,9 +63,13 @@
     
     JSONDecoder *decoder = [[JSONDecoder alloc] initWithParseOptions:JKParseOptionUnicodeNewlines];
     
-
-    NSData *data = [[NSData alloc] initWithContentsOfURL:[[NSURL alloc] initWithString:mapsURL]];
+    NSURL *url = [[NSURL alloc] initWithString:mapsURL];
+    NSData *data = [[NSData alloc] initWithContentsOfURL:url];
     id jsonResponse = [decoder objectWithData:data];
+    
+    // releases
+    [url release];
+    [data release];
     
     NSString *status = [jsonResponse objectForKey:@"status"];
     id results = [jsonResponse objectForKey:@"results"];
@@ -133,8 +137,10 @@
     [self showHideSearchBar];
     
     [decoder release];
-    [data release];
+    jsonResponse = nil;
+    
 }
+
 
 - (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar
 {
