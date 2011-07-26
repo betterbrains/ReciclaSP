@@ -80,22 +80,12 @@
                 NSDictionary *locationDic = [[[results objectAtIndex:0] objectForKey:@"geometry"] objectForKey:@"location"];
                 NSNumber *latitude = [locationDic objectForKey:@"lat"];
                 NSNumber *longitude = [locationDic objectForKey:@"lng"];
-                NSString *address = [[results objectAtIndex:0] objectForKey:@"formatted_address"];
 
                 // define the new region and zoom
                 CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake([latitude doubleValue], [longitude doubleValue]);
-                MKCoordinateSpan span = MKCoordinateSpanMake(0.010, 0.010);
+                MKCoordinateSpan span = MKCoordinateSpanMake(0.008, 0.008);
                 
                 [map setRegion:MKCoordinateRegionMake(coordinate, span) animated:YES];
-                
-                // pin the location
-                Pin *pin = [[Pin alloc] init];
-                
-                pin.coordinate = CLLocationCoordinate2DMake([latitude doubleValue], [longitude doubleValue]);
-                [pin setTitle:@"Endereço pesquisado"];
-                [map addAnnotation:pin];
-                
-                [pin release];
 
             } else {
                 UIAlertView *alert  = [[UIAlertView alloc] initWithTitle:@"Muito resultados" 
