@@ -33,8 +33,6 @@
     [UIView beginAnimations:nil context:nil];
     [UIView setAnimationDuration:0.3]; 
     
-    //bool o = [UIDevice currentDevice].orientation ==UIInterfaceOrientationPortrait;
-    
     if (sbLocation.center.y > 0) {
         // the searchBar is inside the screen, so lets hide
         sbLocation.center = CGPointMake(sbLocation.center.x, -23);
@@ -61,13 +59,82 @@
     address = [address stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
     
     mapsURL = [mapsURL stringByAppendingString:address];
+    mapsURL = [mapsURL stringByAppendingString:@"&sensor=true"];
     
+    JSONDecoder *decoder = [[JSONDecoder alloc] initWithParseOptions:JKParseOptionUnicodeNewlines];
+    
+
     NSData *data = [[NSData alloc] initWithContentsOfURL:[[NSURL alloc] initWithString:mapsURL]];
+    id jsonResponse = [decoder objectWithData:data];
     
-    JSONDecoder *decoder = [[JSONDecoder alloc] initWithParseOptions:JKParseOptionNone];
-    NSArray *items = [decoder objectWithData:data];
+    NSString *status = [jsonResponse objectForKey:@"status"];
+    id results = [jsonResponse objectForKey:@"results"];
     
-    NSLog(@"Numbers os items: %d", [items count]);
+    // verify the status of query
+    if ([status isEqualToString:@"OK"]) {
+        
+        if ([results isKindOfClass:[NSArray class]]) {
+            
+            if ([results count] < 3) {
+                
+                NSDictionary *locationDic = [[[results objectAtIndex:0] objectForKey:@"geometry"] objectForKey:@"location"];
+                NSNumber *latitude = [locationDic objectForKey:@"lat"];
+                NSNumber *longitude = [locationDic objectForKey:@"lng"];
+                NSString *address = [[results objectAtIndex:0] objectForKey:@"formatted_address"];
+
+                // define the new region and zoom
+                CLLocationCoordinate2D coordinate = CLLocationCoordinate2DMake([latitude doubleValue], [longitude doubleValue]);
+                MKCoordinateSpan span = MKCoordinateSpanMake(0.010, 0.010);
+                
+                [map setRegion:MKCoordinateRegionMake(coordinate, span) animated:YES];
+                
+                // pin the location
+                Pin *pin = [[Pin alloc] init];
+                
+                pin.coordinate = CLLocationCoordinate2DMake([latitude doubleValue], [longitude doubleValue]);
+                [pin setTitle:@"Endereço pesquisado"];
+                [map addAnnotation:pin];
+                
+                [pin release];
+
+            } else {
+                UIAlertView *alert  = [[UIAlertView alloc] initWithTitle:@"Muito resultados" 
+                                                                 message:@"Especifique melhor o endereço usando: nome da rua, número, cidade." 
+                                                                delegate:nil 
+                                                       cancelButtonTitle:@"OK" 
+                                                       otherButtonTitles:nil ];
+                
+                [alert show];
+                [alert release];
+
+            }
+            
+        }
+
+    } 
+    else if ([status isEqualToString:@"ZERO_RESULTS"]) {
+        UIAlertView *alert  = [[UIAlertView alloc] initWithTitle:@"Não encontrado" 
+                                                         message:@"Especifique melhor o endereço usando: nome da rua, número, cidade." 
+                                                        delegate:nil 
+                                               cancelButtonTitle:@"OK" 
+                                               otherButtonTitles:nil ];
+        
+        [alert show];
+        [alert release];
+    }
+    else if ([status isEqualToString:@"OVER_QUERY_LIMIT"]) {
+        UIAlertView *alert  = [[UIAlertView alloc] initWithTitle:@"Problema na conexão" 
+                                                         message:@"Houve um problema com o serviço de mapas, tente novamente por favor." 
+                                                        delegate:nil 
+                                               cancelButtonTitle:@"OK" 
+                                               otherButtonTitles:nil ];
+        
+        [alert show];
+        [alert release];
+        
+    }
+    
+    
     
     // hide keyboard
     [sbLocation resignFirstResponder];
@@ -75,11 +142,8 @@
     // hide the searchBar
     [self showHideSearchBar];
     
-    [mapsURL release];
-    [address release];
     [decoder release];
     [data release];
-    [items release];
 }
 
 - (void)searchBarCancelButtonClicked:(UISearchBar *)searchBar
