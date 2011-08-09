@@ -326,6 +326,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Luiz Aguiar (H2M78Z86F5)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -333,6 +334,7 @@
 				GCC_PREFIX_HEADER = ReciclaSP_Prefix.pch;
 				INFOPLIST_FILE = "ReciclaSP-Info.plist";
 				PRODUCT_NAME = "Recicla SP";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "88C08E50-EB12-4148-9872-5748C7567736";
 			};
 			name = Debug;
 		};
@@ -340,11 +342,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Betterbrains Studio Desenvolvimento em TI";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ReciclaSP_Prefix.pch;
 				INFOPLIST_FILE = "ReciclaSP-Info.plist";
 				PRODUCT_NAME = "Recicla SP";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9897305E-2D10-401C-B9B9-607FD89B0E90";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

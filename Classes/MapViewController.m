@@ -53,6 +53,8 @@
 
 -(void)searchBarSearchButtonClicked:(UISearchBar *)searchBar
 {
+    [self checkNetworkStatus];
+    
     NSString *mapsURL = @"http://maps.googleapis.com/maps/api/geocode/json?address=";
     
     NSString *address = searchBar.text;
