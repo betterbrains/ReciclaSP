@@ -74,7 +74,7 @@
 					<object class="IBUILabel" id="960047853">
 						<reference key="NSNextResponder" ref="191373211"/>
 						<int key="NSvFlags">292</int>
-						<string key="NSFrame">{{20, 150}, {280, 129}}</string>
+						<string key="NSFrame">{{20, 161}, {280, 129}}</string>
 						<reference key="NSSuperview" ref="191373211"/>
 						<reference key="NSWindow"/>
 						<reference key="NSNextKeyView" ref="261462920"/>
@@ -83,7 +83,7 @@
 						<int key="IBUIContentMode">7</int>
 						<bool key="IBUIUserInteractionEnabled">NO</bool>
 						<string key="targetRuntimeIdentifier">IBCocoaTouchFramework</string>
-						<string key="IBUIText">Para sugerir um novo "Ponto de Entrega Voluntária", mande o maior número possível de detalhes do estabelecimento.</string>
+						<string key="IBUIText">Para sugerir um novo PEV, envie no email, os todos detalhes do estabelecimento sugerido.</string>
 						<object class="NSFont" key="IBUIFont">
 							<string key="NSName">Helvetica</string>
 							<double key="NSSize">18</double>
