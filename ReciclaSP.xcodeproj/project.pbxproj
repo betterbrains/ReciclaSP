@@ -28,6 +28,10 @@
 		DD675310135D364B0027A423 /* ReciclaSP-title.png in Resources */ = {isa = PBXBuildFile; fileRef = DD67530F135D364B0027A423 /* ReciclaSP-title.png */; };
 		DD7750A613372B58004BDBBF /* Pev.plist in Resources */ = {isa = PBXBuildFile; fileRef = DD7750A513372B58004BDBBF /* Pev.plist */; };
 		DD8EC041133B8E9D000CE25A /* close.png in Resources */ = {isa = PBXBuildFile; fileRef = DD8EC040133B8E9D000CE25A /* close.png */; };
+		DDC354B3140DE83500E5253D /* NewPevViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DDC354B1140DE83500E5253D /* NewPevViewController.m */; };
+		DDC354B4140DE83500E5253D /* NewPevViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDC354B2140DE83500E5253D /* NewPevViewController.xib */; };
+		DDC354B6140DED6300E5253D /* 07-map-marker.png in Resources */ = {isa = PBXBuildFile; fileRef = DDC354B5140DED6300E5253D /* 07-map-marker.png */; };
+		DDC354B8140DF21000E5253D /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DDC354B7140DF21000E5253D /* MessageUI.framework */; };
 		DDCA1E4013175A8700DF990B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCA1E3713175A8700DF990B /* Icon-72.png */; };
 		DDCA1E4113175A8700DF990B /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCA1E3813175A8700DF990B /* Icon-Small-50.png */; };
 		DDCA1E4213175A8700DF990B /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = DDCA1E3913175A8700DF990B /* Icon-Small.png */; };
@@ -77,6 +81,11 @@
 		DD67530F135D364B0027A423 /* ReciclaSP-title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ReciclaSP-title.png"; sourceTree = "<group>"; };
 		DD7750A513372B58004BDBBF /* Pev.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Pev.plist; sourceTree = "<group>"; };
 		DD8EC040133B8E9D000CE25A /* close.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = close.png; sourceTree = "<group>"; };
+		DDC354B0140DE83500E5253D /* NewPevViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPevViewController.h; sourceTree = "<group>"; };
+		DDC354B1140DE83500E5253D /* NewPevViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPevViewController.m; sourceTree = "<group>"; };
+		DDC354B2140DE83500E5253D /* NewPevViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewPevViewController.xib; sourceTree = "<group>"; };
+		DDC354B5140DED6300E5253D /* 07-map-marker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "07-map-marker.png"; sourceTree = "<group>"; };
+		DDC354B7140DF21000E5253D /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		DDCA1E3713175A8700DF990B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		DDCA1E3813175A8700DF990B /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
 		DDCA1E3913175A8700DF990B /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
@@ -101,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DDC354B8140DF21000E5253D /* MessageUI.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
 				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
@@ -128,6 +138,9 @@
 				DD4B907013392960007B4440 /* AboutViewController.h */,
 				DD4B907113392960007B4440 /* AboutViewController.m */,
 				DD4B907213392960007B4440 /* AboutViewController.xib */,
+				DDC354B0140DE83500E5253D /* NewPevViewController.h */,
+				DDC354B1140DE83500E5253D /* NewPevViewController.m */,
+				DDC354B2140DE83500E5253D /* NewPevViewController.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -176,6 +189,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				DDC354B7140DF21000E5253D /* MessageUI.framework */,
 				DD5879A913154C5C00759F45 /* MapKit.framework */,
 				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
 				1D30AB110D05D00D00671497 /* Foundation.framework */,
@@ -189,6 +203,7 @@
 		DDCA20481317938C00DF990B /* images */ = {
 			isa = PBXGroup;
 			children = (
+				DDC354B5140DED6300E5253D /* 07-map-marker.png */,
 				DDDBA871137A44CA00DB3893 /* Default@2x.png */,
 				DD67530F135D364B0027A423 /* ReciclaSP-title.png */,
 				DD1B2C0C1353FECC005F9175 /* ReciclaSP-transparency.png */,
@@ -298,6 +313,8 @@
 				DD1B2C0D1353FECC005F9175 /* ReciclaSP-transparency.png in Resources */,
 				DD675310135D364B0027A423 /* ReciclaSP-title.png in Resources */,
 				DDDBA872137A44CA00DB3893 /* Default@2x.png in Resources */,
+				DDC354B4140DE83500E5253D /* NewPevViewController.xib in Resources */,
+				DDC354B6140DED6300E5253D /* 07-map-marker.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +333,7 @@
 				DD4B907313392960007B4440 /* AboutViewController.m in Sources */,
 				DD3954871342544700B00F60 /* Reachability.m in Sources */,
 				DD3C5BA013D5385200D0EBED /* JSONKit.m in Sources */,
+				DDC354B3140DE83500E5253D /* NewPevViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
