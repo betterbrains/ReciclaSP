@@ -94,7 +94,7 @@
                 [map setRegion:MKCoordinateRegionMake(coordinate, span) animated:YES];
 
             } else {
-                UIAlertView *alert  = [[UIAlertView alloc] initWithTitle:@"Muito resultados" 
+                UIAlertView *alert  = [[UIAlertView alloc] initWithTitle:@"Muitos resultados" 
                                                                  message:@"Especifique melhor o endereço usando: nome da rua, número, cidade." 
                                                                 delegate:nil 
                                                        cancelButtonTitle:@"OK" 

@@ -25,6 +25,17 @@
         [self presentModalViewController:mailController animated:YES];
         [mailController release]; 
     }
+    else 
+    {
+        UIAlertView *alert  = [[UIAlertView alloc] initWithTitle:@"Erro" 
+                                                         message:@"Seu device não esta configurado para enviar Email." 
+                                                        delegate:nil 
+                                               cancelButtonTitle:@"OK" 
+                                               otherButtonTitles:nil ];
+        
+        [alert show];
+        [alert release];
+    }
 }
 
 - (void)mailComposeController:(MFMailComposeViewController*)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError*)error {

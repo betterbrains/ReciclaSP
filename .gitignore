@@ -4,4 +4,4 @@ xcuserdata
 *.pbxuser
 *.xcworkspace
 !default.xcworkspace
-
+.idea
