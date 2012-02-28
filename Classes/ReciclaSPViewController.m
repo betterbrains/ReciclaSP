@@ -19,7 +19,6 @@
 	
 	[self presentModalViewController:about animated:TRUE];
 	
-	[about release];
 	
 }
 
@@ -38,9 +37,6 @@
 }
 
 
-- (void)dealloc {
-    [super dealloc];
-}
 
 
 @end

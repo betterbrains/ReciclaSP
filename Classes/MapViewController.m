@@ -70,8 +70,6 @@
     id jsonResponse = [decoder objectWithData:data];
     
     // releases
-    [url release];
-    [data release];
     
     NSString *status = [jsonResponse objectForKey:@"status"];
     id results = [jsonResponse objectForKey:@"results"];
@@ -101,7 +99,6 @@
                                                        otherButtonTitles:nil ];
                 
                 [alert show];
-                [alert release];
 
             }
             
@@ -116,7 +113,6 @@
                                                otherButtonTitles:nil ];
         
         [alert show];
-        [alert release];
     }
     else if ([status isEqualToString:@"OVER_QUERY_LIMIT"]) {
         UIAlertView *alert  = [[UIAlertView alloc] initWithTitle:@"Problema na conexão" 
@@ -126,7 +122,6 @@
                                                otherButtonTitles:nil ];
         
         [alert show];
-        [alert release];
         
     }
     
@@ -138,7 +133,6 @@
     // hide the searchBar
     [self showHideSearchBar];
     
-    [decoder release];
     jsonResponse = nil;
     
 }
@@ -167,8 +161,8 @@
 	[mapView dequeueReusableAnnotationViewWithIdentifier:PinAnnotationID];
 
 	// if an existing pin view was not available, create one
-	MKPinAnnotationView* pinView = [[[MKPinAnnotationView alloc]
-									 initWithAnnotation:(Pin*)annotation reuseIdentifier:PinAnnotationID] autorelease];
+	MKPinAnnotationView* pinView = [[MKPinAnnotationView alloc]
+									 initWithAnnotation:(Pin*)annotation reuseIdentifier:PinAnnotationID];
 	
 	if (!pinView) {
 		return nil;
@@ -196,7 +190,6 @@
 											  cancelButtonTitle:@"OK"
 											  otherButtonTitles:nil];
     [alertView show];
-    [alertView release];
 	
 }
 
@@ -253,11 +246,9 @@
         
         [map addAnnotation:pin];
         
-        [pin release];
 
     }
     
-    [places release];
     
     [self checkNetworkStatus];
     
@@ -278,7 +269,6 @@
         
         [alert show];
         
-        [alert release];
     }
     
 }
@@ -295,11 +285,6 @@
 }
 
 
-- (void)dealloc {
-	[map release];
-	
-    [super dealloc];
-}
 
 
 @end

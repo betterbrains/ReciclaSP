@@ -14,9 +14,9 @@
 		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		DD1B2C0D1353FECC005F9175 /* ReciclaSP-transparency.png in Resources */ = {isa = PBXBuildFile; fileRef = DD1B2C0C1353FECC005F9175 /* ReciclaSP-transparency.png */; };
-		DD3954871342544700B00F60 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3954861342544700B00F60 /* Reachability.m */; };
+		DD3954871342544700B00F60 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3954861342544700B00F60 /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DD395493134254A900B00F60 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD395492134254A900B00F60 /* SystemConfiguration.framework */; };
-		DD3C5BA013D5385200D0EBED /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3C5B9F13D5385200D0EBED /* JSONKit.m */; };
+		DD3C5BA013D5385200D0EBED /* JSONKit.m in Sources */ = {isa = PBXBuildFile; fileRef = DD3C5B9F13D5385200D0EBED /* JSONKit.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DD49037513391C2900B3F876 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = DD49037413391C2900B3F876 /* Default.png */; };
 		DD4B907313392960007B4440 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DD4B907113392960007B4440 /* AboutViewController.m */; };
 		DD4B907413392960007B4440 /* AboutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DD4B907213392960007B4440 /* AboutViewController.xib */; };
@@ -344,15 +344,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Luiz Aguiar (H2M78Z86F5)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ReciclaSP_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "ReciclaSP-Info.plist";
 				PRODUCT_NAME = "Recicla SP";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "88C08E50-EB12-4148-9872-5748C7567736";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E8E10627-F6C3-4B80-9E78-4E138FE9515A";
 			};
 			name = Debug;
 		};
@@ -360,13 +362,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Betterbrains Studio Desenvolvimento em TI";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = ReciclaSP_Prefix.pch;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "ReciclaSP-Info.plist";
 				PRODUCT_NAME = "Recicla SP";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9897305E-2D10-401C-B9B9-607FD89B0E90";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -375,12 +379,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Luiz Aguiar (H2M78Z86F5)";
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E8E10627-F6C3-4B80-9E78-4E138FE9515A";
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -394,7 +400,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 3.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				PREBINDING = NO;
 				PROVISIONING_PROFILE = "";

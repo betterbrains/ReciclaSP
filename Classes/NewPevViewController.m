@@ -23,7 +23,6 @@
         [mailController setSubject:@"Sugestão de novo PEV"];
         [mailController setMessageBody:@"" isHTML:NO];
         [self presentModalViewController:mailController animated:YES];
-        [mailController release]; 
     }
     else 
     {
@@ -34,7 +33,6 @@
                                                otherButtonTitles:nil ];
         
         [alert show];
-        [alert release];
     }
 }
 
@@ -53,10 +51,6 @@
     return self;
 }
 
-- (void)dealloc
-{
-    [super dealloc];
-}
 
 - (void)didReceiveMemoryWarning
 {
